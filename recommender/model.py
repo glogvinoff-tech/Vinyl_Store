@@ -1,4 +1,4 @@
-"""Synthetic purchase history and recommendations. Never connects to the shop DB."""
+"""Recommendations trained on the shop's purchase history (anonymized events), with a synthetic fallback."""
 import calendar
 import hashlib
 import math
@@ -56,6 +56,44 @@ def generate_history(records):
     return np.array(rows), np.array(quantities), history
 
 
+def history_from_events(records, events):
+    """Обучающая выборка из реальных событий покупок.
+
+    Вкус покупателя = жанры, которые он уже покупал. Для каждой покупки добавляются
+    два детерминированных «показа без покупки» (негативные примеры), иначе сети
+    нечему учиться: в заказах бывают только положительные события.
+    """
+    by_id = {record["id"]: record for record in records}
+    user_genres, user_records = {}, {}
+    for event in events:
+        record = by_id.get(event.get("recordId"))
+        if record is None:
+            continue
+        user = event.get("userId") or ""
+        user_genres.setdefault(user, set()).add(record["genre"].strip().lower())
+        user_records.setdefault(user, set()).add(record["id"])
+    rows, quantities = [], []
+    for event in events:
+        record = by_id.get(event.get("recordId"))
+        if record is None:
+            continue
+        try:
+            now = datetime.fromisoformat(event["occurredAt"]).astimezone(MOSCOW)
+        except (KeyError, ValueError):
+            continue
+        user = event.get("userId") or ""
+        tastes = user_genres.get(user, set())
+        rows.append(features(record, tastes, now))
+        quantities.append(max(1, int(event.get("quantity", 1))))
+        seed = int.from_bytes(hashlib.sha256((user + record["id"] + event["occurredAt"]).encode()).digest()[:8], "big")
+        rng = np.random.default_rng(seed)
+        candidates = [c for c in records if c["id"] not in user_records.get(user, set())]
+        for index in rng.choice(len(candidates), size=min(2, len(candidates)), replace=False):
+            rows.append(features(candidates[int(index)], tastes, now))
+            quantities.append(0)
+    return np.array(rows), np.array(quantities)
+
+
 def promotion_title(now):
     if now.month == 12 and now.day >= 20:
         return "Пластинки к Новому году"
@@ -73,29 +111,42 @@ class Recommender:
         self._cached = None
         self._lock = threading.Lock()
 
-    def _model_for(self, records):
+    def _model_for(self, records, events):
         # Purchases do not trigger retraining: stock is excluded from the signature.
-        signature = tuple((r["id"], r["genre"], r["price"], r["discountPercent"]) for r in records)
+        signature = (tuple((r["id"], r["genre"], r["price"], r["discountPercent"]) for r in records),
+                     tuple((e.get("recordId"), e.get("occurredAt"), e.get("quantity")) for e in events))
         with self._lock:
             if self._cached is not None and self._cached[0] == signature:
                 return self._cached[1:]
-            x, quantities, _ = generate_history(records)
+            x, quantities = history_from_events(records, events) if events else (None, None)
+            if quantities is None or len(quantities) < 40:
+                x, quantities, _ = generate_history(records)
+                source, real_events = "SYNTHETIC", 0
+            else:
+                source, real_events = "DATABASE", len(events)
+            rng = np.random.default_rng(SEED)
+            order = rng.permutation(len(x))
+            split = int(len(x) * 0.8)
+            train, validation = order[:split], order[split:]
             network = NeuralNetwork()
-            network.train(x[:TRAINING_SIZE], quantities[:TRAINING_SIZE])
-            info = {"architecture": "11 → 16 (tanh) → 1 (sigmoid)", "trainingExamples": TRAINING_SIZE,
-                    "validationExamples": VALIDATION_SIZE, "fictionalPurchases": int(np.count_nonzero(quantities)),
-                    "fictionalUnits": int(quantities.sum()), "validationLoss": network.loss(x[TRAINING_SIZE:], quantities[TRAINING_SIZE:])}
+            network.train(x[train], quantities[train])
+            info = {"architecture": "11 → 16 (tanh) → 1 (sigmoid)", "dataSource": source,
+                    "realEvents": real_events, "trainingExamples": int(len(train)),
+                    "validationExamples": int(len(validation)),
+                    "fictionalPurchases": int(np.count_nonzero(quantities)),
+                    "fictionalUnits": int(quantities.sum()),
+                    "validationLoss": network.loss(x[validation], quantities[validation])}
             self._cached = signature, network, info
             return network, info
 
-    def recommend(self, records, tastes=(), limit=3, now=None):
+    def recommend(self, records, tastes=(), limit=3, now=None, events=None):
         records = sorted(records, key=lambda record: record["id"])
         tastes = {genre.strip().lower() for genre in tastes}
         now = (now or datetime.now(MOSCOW)).astimezone(MOSCOW)
         result = {"items": [], "promotion": {"items": []}, "generatedAt": now.isoformat(), "training": None}
         if not records:
             return result
-        network, info = self._model_for(records)
+        network, info = self._model_for(records, events or [])
         available = [record for record in records if record["stock"] > 0]
         if available:
             scores = network.predict(np.array([features(record, tastes, now) for record in available]))

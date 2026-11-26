@@ -5,6 +5,7 @@ import com.sun.net.httpserver.HttpServer;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.server.ResponseStatusException;
 import ru.mirea.vinylstore.domain.VinylRecord;
+import ru.mirea.vinylstore.repository.StoreOrderRepository;
 import ru.mirea.vinylstore.repository.VinylRecordRepository;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
@@ -35,7 +36,8 @@ class RecommendationBridgeTest {
         });
         server.start();
         try {
-            var service = new RecommendationService(repository, json, "http://127.0.0.1:" + server.getAddress().getPort());
+            var service = bridge(repository, json, "http://127.0.0.1:" + server.getAddress().getPort(),
+                List.<Object[]>of(new Object[]{rock.getId(), "Rock", 2, java.time.Instant.parse("2026-11-01T18:00:00Z"), new UUID(0, 99)}));
             var result = service.recommend(Set.of("rock"), 3);
             assertThat(result.items()).extracting(p -> p.record().id()).containsExactly(rock.getId(), noDiscount.getId());
             assertThat(result.items().getFirst().record().salePrice()).isEqualByComparingTo("800");
@@ -46,6 +48,8 @@ class RecommendationBridgeTest {
             assertThat(request.path("genres").get(0).asText()).isEqualTo("rock");
             assertThat(request.path("records").get(0).properties()).hasSize(5);
             assertThat(request.has("userId")).isFalse();
+            assertThat(request.path("history").size()).isEqualTo(1);
+            assertThat(request.path("history").get(0).path("quantity").asInt()).isEqualTo(2);
             verify(repository).findByActiveTrueOrderByCodeAsc();
             verifyNoMoreInteractions(repository);
         } finally { server.stop(0); }
@@ -54,7 +58,7 @@ class RecommendationBridgeTest {
     @Test void emptyCatalogWorksWithoutPythonAndInvalidResponseIsUnavailable() throws Exception {
         var repository = mock(VinylRecordRepository.class);
         when(repository.findByActiveTrueOrderByCodeAsc()).thenReturn(List.of());
-        var service = new RecommendationService(repository, json, "http://127.0.0.1:1");
+        var service = bridge(repository, json, "http://127.0.0.1:1", List.of());
         assertThat(service.recommend(Set.of(), 3).items()).isEmpty();
         var server = HttpServer.create(new InetSocketAddress("127.0.0.1", 0), 0);
         server.createContext("/recommend", exchange -> {
@@ -66,10 +70,17 @@ class RecommendationBridgeTest {
         server.start();
         try {
             when(repository.findByActiveTrueOrderByCodeAsc()).thenReturn(List.of(record(1, 0, 10)));
-            var broken = new RecommendationService(repository, json, "http://127.0.0.1:" + server.getAddress().getPort());
+            var broken = bridge(repository, json, "http://127.0.0.1:" + server.getAddress().getPort(), List.of());
             assertThatThrownBy(() -> broken.recommend(Set.of(), 3)).isInstanceOfSatisfying(ResponseStatusException.class,
                 error -> assertThat(error.getStatusCode().value()).isEqualTo(503));
         } finally { server.stop(0); }
+    }
+
+    private static RecommendationService bridge(VinylRecordRepository repository, ObjectMapper json, String url,
+                                                List<Object[]> events) {
+        var orders = mock(StoreOrderRepository.class);
+        when(orders.trainingEvents()).thenReturn(events);
+        return new RecommendationService(repository, orders, json, url);
     }
 
     private static Map<String, Object> pick(VinylRecord record) {

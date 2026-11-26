@@ -1,4 +1,4 @@
-"""Internal HTTP service. Receives catalog metadata, never accounts or real orders."""
+"""Internal HTTP service. Receives catalog metadata and anonymized purchase events (UUIDs only)."""
 import json
 import logging
 import math
@@ -22,6 +22,19 @@ def validate_request(payload):
         raise ValueError("Invalid genres")
     if type(limit) is not int or not 1 <= limit <= 12:
         raise ValueError("Invalid limit")
+    history = payload.get("history", [])
+    if not isinstance(history, list) or len(history) > 100000:
+        raise ValueError("Invalid history")
+    for event in history:
+        if not isinstance(event, dict) or not isinstance(event.get("recordId"), str):
+            raise ValueError("Invalid history event")
+        UUID(event["recordId"])
+        if type(event.get("quantity")) is not int or event["quantity"] < 1:
+            raise ValueError("Invalid quantity")
+        if not isinstance(event.get("occurredAt"), str) or len(event["occurredAt"]) > 40:
+            raise ValueError("Invalid timestamp")
+        if not isinstance(event.get("userId") or "", str) or len(event.get("userId") or "") > 64:
+            raise ValueError("Invalid user")
     ids = set()
     for record in records:
         if not isinstance(record, dict) or not isinstance(record.get("id"), str):
@@ -39,7 +52,7 @@ def validate_request(payload):
             raise ValueError("Invalid stock")
         if type(record.get("discountPercent")) is not int or not 0 <= record["discountPercent"] <= 90:
             raise ValueError("Invalid discount")
-    return records, genres, limit
+    return records, genres, limit, history
 
 
 class RecommendationServer(ThreadingHTTPServer):
@@ -83,8 +96,8 @@ class Handler(BaseHTTPRequestHandler):
             if not 0 < size <= MAX_BODY:
                 self.reply(413, {"error": "Invalid body size"})
                 return
-            records, genres, limit = validate_request(json.loads(self.rfile.read(size)))
-            self.reply(200, self.server.model.recommend(records, genres, limit))
+            records, genres, limit, history = validate_request(json.loads(self.rfile.read(size)))
+            self.reply(200, self.server.model.recommend(records, genres, limit, events=history))
         except (ValueError, TypeError, KeyError):
             self.reply(400, {"error": "Invalid recommendation request"})
         except (BrokenPipeError, ConnectionResetError, TimeoutError):

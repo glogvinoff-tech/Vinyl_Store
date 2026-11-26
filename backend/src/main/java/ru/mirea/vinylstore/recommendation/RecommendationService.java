@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 import ru.mirea.vinylstore.domain.VinylRecord;
 import ru.mirea.vinylstore.dto.RecordDtos.RecordResponse;
+import ru.mirea.vinylstore.repository.StoreOrderRepository;
 import ru.mirea.vinylstore.repository.VinylRecordRepository;
 import ru.mirea.vinylstore.service.RecordService;
 
@@ -21,13 +22,15 @@ import java.util.*;
 @Service
 public class RecommendationService {
     private final VinylRecordRepository records;
+    private final StoreOrderRepository orders;
     private final ObjectMapper json;
     private final URI endpoint;
     private final HttpClient http = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(2)).build();
 
-    public RecommendationService(VinylRecordRepository records, ObjectMapper json,
+    public RecommendationService(VinylRecordRepository records, StoreOrderRepository orders, ObjectMapper json,
         @Value("${recommendations.url:http://127.0.0.1:8091}") String url) {
         this.records = records;
+        this.orders = orders;
         this.json = json;
         this.endpoint = URI.create(url.replaceAll("/+$", "") + "/recommend");
     }
@@ -49,10 +52,18 @@ public class RecommendationService {
         }
         if (input.isEmpty()) return new Result(tastes.isEmpty() ? "DISCOVERY" : "PERSONALIZED", "SYNTHETIC", null,
             "Europe/Moscow", List.of(), null, null);
+        // Анонимная история покупок из базы: только UUID пластинки/покупателя, жанр, количество и момент времени.
+        List<Map<String, Object>> events = new ArrayList<>();
+        for (Object[] row : orders.trainingEvents()) {
+            events.add(Map.of("recordId", row[0].toString(), "genre", Objects.toString(row[1], ""),
+                "quantity", ((Number) row[2]).intValue(), "occurredAt", row[3].toString(), "userId", row[4].toString()));
+        }
+        String dataSource = events.isEmpty() ? "SYNTHETIC" : "DATABASE";
         try {
             var request = HttpRequest.newBuilder(endpoint).timeout(Duration.ofSeconds(15))
                 .header("Content-Type", "application/json")
-                .POST(HttpRequest.BodyPublishers.ofByteArray(json.writeValueAsBytes(Map.of("records", input, "genres", tastes, "limit", limit))))
+                .POST(HttpRequest.BodyPublishers.ofByteArray(json.writeValueAsBytes(
+                    Map.of("records", input, "genres", tastes, "limit", limit, "history", events))))
                 .build();
             var response = http.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() != 200) throw new IOException("Recommendation service unavailable");
@@ -63,7 +74,7 @@ public class RecommendationService {
             List<Pick> deals = resolve(offer.path("items"), available, 3, true);
             Promotion promotion = deals.isEmpty() ? null : new Promotion(offer.path("title").asText(),
                 "Нейросеть выбрала действующие скидки каталога с учётом вашего вкуса, даты и времени. Цена сохранится в корзине.", deals);
-            return new Result(tastes.isEmpty() ? "DISCOVERY" : "PERSONALIZED", "SYNTHETIC", body.path("generatedAt").asText(),
+            return new Result(tastes.isEmpty() ? "DISCOVERY" : "PERSONALIZED", dataSource, body.path("generatedAt").asText(),
                 "Europe/Moscow", picks, promotion, body.get("training"));
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

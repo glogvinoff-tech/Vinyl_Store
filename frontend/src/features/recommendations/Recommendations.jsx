@@ -72,7 +72,7 @@ function RecommendationPanel({ userId, records }) {
           {selected.length > 0 && <button type="button" className="recommendations-reset" onClick={() => setSelected([])}>Сбросить вкус</button>}
         </div>
       </fieldset>
-      <p className="recommendations-disclosure">Учебная нейросеть: обучена на вымышленных покупках. Подборка учитывает дату и время по Москве.</p>
+      <p className="recommendations-disclosure">Нейросеть обучается на покупках покупателей магазина. Подборка учитывает дату и время по Москве.</p>
       <div aria-live="polite" aria-busy={loading}>
         {loading && <p className="recommendations-status" role="status">Подбираем звучание для вас…</p>}
         {error && <div className="recommendations-status" role="status"><p>{error}</p><button type="button" className="button" onClick={() => setRevision(value => value + 1)}>Повторить подбор</button></div>}

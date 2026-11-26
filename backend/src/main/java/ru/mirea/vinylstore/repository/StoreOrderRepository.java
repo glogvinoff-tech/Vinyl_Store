@@ -34,4 +34,10 @@ public interface StoreOrderRepository extends JpaRepository<StoreOrder, UUID>, J
 
     @Query("select s.priorityLevel, count(s) from StoreOrder s where s.archived = false group by s.priorityLevel order by count(s) desc")
     List<Object[]> countActiveByPriority();
+
+    /** События покупок для обучения рекомендательной нейросети: пластинка, жанр, количество, момент, покупатель. */
+    @Query("select r.id, r.genre, o.quantity, o.createdAt, u.id from StoreOrder o " +
+           "join o.record r join o.createdBy u " +
+           "where o.archived = false and o.status <> ru.mirea.vinylstore.domain.OrderStatus.CANCELED and r.active = true")
+    List<Object[]> trainingEvents();
 }
