@@ -1,0 +1,39 @@
+{
+  "artist": "Nas",
+  "title": "Illmatic",
+  "year": 1994,
+  "genre": "Хип-хоп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Nas",
+      "title": "Illmatic",
+      "id": 7654077,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1bd8913c9577f0c1535ba0e82eddcf45/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/7654077"
+    },
+    {
+      "artist": "Nas",
+      "title": "Illmatic",
+      "id": 7664645,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4c2dc31af4f87864afcdb6ab599c7960/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/7664645"
+    },
+    {
+      "artist": "Nas",
+      "title": "Illmatic XX",
+      "id": 7565648,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/50f194739ea843bf4d38c617c06b87dd/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/7565648"
+    }
+  ],
+  "cover": "/assets/catalog-8d7fa129c60871ef.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/1bd8913c9577f0c1535ba0e82eddcf45/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/7654077",
+  "matchedArtist": "Nas",
+  "matchedTitle": "Illmatic"
+}

@@ -1,0 +1,9 @@
+{
+  "artist": "Sex Pistols",
+  "title": "Never Mind the Bollocks, Here's the Sex Pistols",
+  "year": 1977,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8010 milliseconds\r\ncurl: (28) Connection timed out after 8014 milliseconds\r\ncurl: (28) Connection timed out after 8006 milliseconds\r\n"
+}

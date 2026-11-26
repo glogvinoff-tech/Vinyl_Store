@@ -1,0 +1,9 @@
+{
+  "artist": "Ramones",
+  "title": "Ramones",
+  "year": 1976,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8010 milliseconds\r\ncurl: (28) Connection timed out after 8013 milliseconds\r\ncurl: (28) Connection timed out after 8013 milliseconds\r\n"
+}

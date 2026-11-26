@@ -1,0 +1,31 @@
+{
+  "artist": "Queen",
+  "title": "A Night at the Opera",
+  "year": 1975,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Queen",
+      "title": "A Night At The Opera",
+      "id": 1007321681,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1007321681"
+    },
+    {
+      "artist": "Queen",
+      "title": "A Night At The Opera (Deluxe Edition)",
+      "id": 1007323081,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1007323081"
+    }
+  ],
+  "cover": "/assets/catalog-4d531e4dd2b4eed6.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/1007321681",
+  "matchedArtist": "Queen",
+  "matchedTitle": "A Night At The Opera"
+}

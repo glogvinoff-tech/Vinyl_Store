@@ -1,0 +1,23 @@
+{
+  "artist": "Kendrick Lamar",
+  "title": "To Pimp a Butterfly",
+  "year": 2015,
+  "genre": "Хип-хоп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Kendrick Lamar",
+      "title": "To Pimp A Butterfly",
+      "id": 9896728,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/00dd0da365a94b1829302d6b7fec70e6/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/9896728"
+    }
+  ],
+  "cover": "/assets/catalog-841939ff208d8822.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/00dd0da365a94b1829302d6b7fec70e6/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/9896728",
+  "matchedArtist": "Kendrick Lamar",
+  "matchedTitle": "To Pimp A Butterfly"
+}

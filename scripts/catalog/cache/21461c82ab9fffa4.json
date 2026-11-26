@@ -1,0 +1,39 @@
+{
+  "artist": "The Beatles",
+  "title": "Abbey Road",
+  "year": 1969,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Beatles",
+      "title": "Abbey Road (2019 Mix)",
+      "id": 1111100002,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/176deb0ea14f5ec0679b8652e8194964/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1111100002"
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Abbey Road (Super Deluxe Edition)",
+      "id": 112126942,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/cb1291c76d83e54e03ea17e53df99cf2/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/112126942"
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Abbey Road (Remastered 2009)",
+      "id": 12047952,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/aa94ab293730bb7845d2aa8c672b2c29/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/12047952"
+    }
+  ],
+  "cover": "/assets/catalog-21461c82ab9fffa4.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/176deb0ea14f5ec0679b8652e8194964/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/1111100002",
+  "matchedArtist": "The Beatles",
+  "matchedTitle": "Abbey Road (2019 Mix)"
+}

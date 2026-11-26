@@ -1,0 +1,12 @@
+ALTER TABLE vinyl_record ADD COLUMN artist VARCHAR(120) NOT NULL DEFAULT '';
+ALTER TABLE vinyl_record ADD COLUMN genre VARCHAR(50);
+ALTER TABLE vinyl_record ADD COLUMN price NUMERIC(10,2) NOT NULL DEFAULT 4990 CHECK(price>0);
+ALTER TABLE vinyl_record ADD COLUMN stock INTEGER NOT NULL DEFAULT 10 CHECK(stock>=0);
+ALTER TABLE vinyl_record ADD COLUMN cover VARCHAR(200);
+ALTER TABLE vinyl_record ADD COLUMN description VARCHAR(2000);
+ALTER TABLE purchase_order ADD COLUMN quantity INTEGER NOT NULL DEFAULT 1 CHECK(quantity BETWEEN 1 AND 1000);
+CREATE INDEX idx_record_genre ON vinyl_record(genre);
+CREATE INDEX idx_record_name ON vinyl_record(name,artist);
+CREATE UNIQUE INDEX idx_order_external_lower ON purchase_order(lower(external_id));
+CREATE UNIQUE INDEX idx_user_email_lower ON app_user(lower(email));
+CREATE UNIQUE INDEX idx_record_code_lower ON vinyl_record(lower(code));

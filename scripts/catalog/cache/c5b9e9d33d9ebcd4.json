@@ -1,0 +1,31 @@
+{
+  "artist": "Led Zeppelin",
+  "title": "Led Zeppelin IV",
+  "year": 1971,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Led Zeppelin",
+      "title": "Led Zeppelin IV (Remaster)",
+      "id": 11591214,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2047754dc07232def42ec26a9a854544/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/11591214"
+    },
+    {
+      "artist": "Led Zeppelin",
+      "title": "Led Zeppelin IV (Deluxe Edition)",
+      "id": 8887733,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/460a0edd96f743be03b7405eac38c633/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/8887733"
+    }
+  ],
+  "cover": "/assets/catalog-c5b9e9d33d9ebcd4.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/2047754dc07232def42ec26a9a854544/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/11591214",
+  "matchedArtist": "Led Zeppelin",
+  "matchedTitle": "Led Zeppelin IV (Remaster)"
+}

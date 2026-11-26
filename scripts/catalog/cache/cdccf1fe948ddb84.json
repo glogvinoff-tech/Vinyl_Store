@@ -1,0 +1,23 @@
+{
+  "artist": "ABBA",
+  "title": "Arrival",
+  "year": 1976,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "ABBA",
+      "title": "Arrival",
+      "id": 126502,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6d99196c168eaf687e0d3c88a7a87604/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/126502"
+    }
+  ],
+  "cover": "/assets/catalog-cdccf1fe948ddb84.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/6d99196c168eaf687e0d3c88a7a87604/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/126502",
+  "matchedArtist": "ABBA",
+  "matchedTitle": "Arrival"
+}

@@ -1,0 +1,35 @@
+{
+  "artist": "The Clash",
+  "title": "London Calling",
+  "year": 1979,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Clash",
+      "title": "London Calling (Remastered)",
+      "id": 6856704,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1dbb7d7bee08ed2b18deabffd675bd36/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6856704"
+    },
+    {
+      "artist": "The Clash",
+      "title": "London Calling (Expanded Edition)",
+      "id": 71530,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4f1492f815f8a3f1cff18880c48cfa30/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/71530"
+    },
+    {
+      "artist": "The Karaoke Channel",
+      "title": "The Karaoke Channel - Sing London Calling Like the Clash",
+      "id": 9291922,
+      "score": 0.083,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/30bed46f1fea2b2e8ec9a42b2a94ca2d/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/9291922"
+    }
+  ],
+  "error": "curl: (28) Connection timed out after 8003 milliseconds\r\ncurl: (28) Connection timed out after 8003 milliseconds\r\ncurl: (28) Operation timed out after 15713 milliseconds with 0 bytes received\r\n"
+}

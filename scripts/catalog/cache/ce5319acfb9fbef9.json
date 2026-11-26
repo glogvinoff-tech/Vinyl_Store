@@ -1,0 +1,39 @@
+{
+  "artist": "Adele",
+  "title": "21",
+  "year": 2011,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Adele",
+      "title": "21",
+      "id": 746059,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/dc1ce848d830ecc93521be5a78350364/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/746059"
+    },
+    {
+      "artist": "Adele",
+      "title": "30",
+      "id": 273425942,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bfaa6999939ce7236b339f875a132f62/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/273425942"
+    },
+    {
+      "artist": "Adèle Castillon",
+      "title": "C'est tout moi",
+      "id": 1109511562,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2efd865e6dc6bb0484ecc8f1ce75b0c3/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1109511562"
+    }
+  ],
+  "cover": "/assets/catalog-ce5319acfb9fbef9.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/dc1ce848d830ecc93521be5a78350364/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/746059",
+  "matchedArtist": "Adele",
+  "matchedTitle": "21"
+}

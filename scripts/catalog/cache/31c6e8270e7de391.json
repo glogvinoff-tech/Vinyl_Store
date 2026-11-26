@@ -1,0 +1,35 @@
+{
+  "artist": "Chet Baker",
+  "title": "Chet Baker Sings",
+  "year": 1954,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Chet Baker",
+      "title": "Chet Baker Sings",
+      "id": 319950,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/07de93dbace542b8ae25c79b0fe001e2/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/319950"
+    },
+    {
+      "artist": "Chet Baker",
+      "title": "Chet Baker Sings",
+      "id": 1017187,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7554f168c45f4e821e094935795a29c2/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1017187"
+    },
+    {
+      "artist": "Chet Baker",
+      "title": "Chet Baker Sings: It Could Happen To You [Original Jazz Classics Remasters] (OJC Remaster)",
+      "id": 662297,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/947d184de54c5ad8b774fdea0792c20b/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/662297"
+    }
+  ],
+  "error": "curl: (28) Connection timed out after 8012 milliseconds\r\ncurl: (28) Connection timed out after 8014 milliseconds\r\ncurl: (28) Operation timed out after 15601 milliseconds with 0 bytes received\r\n"
+}

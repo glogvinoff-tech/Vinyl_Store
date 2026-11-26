@@ -1,0 +1,39 @@
+{
+  "artist": "Fleetwood Mac",
+  "title": "Rumours",
+  "year": 1977,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Fleetwood Mac",
+      "title": "Rumours",
+      "id": 6237061,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6237061"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "Rumours Live",
+      "id": 480700305,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d59a606dcfd9152d2b006800bfd4e633/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/480700305"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "title": "Rumours (Super Deluxe)",
+      "id": 6612817,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0199f3f00d23ed0916cf748d9b5d5030/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6612817"
+    }
+  ],
+  "cover": "/assets/catalog-a3b8be46eeaebf24.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/6237061",
+  "matchedArtist": "Fleetwood Mac",
+  "matchedTitle": "Rumours"
+}

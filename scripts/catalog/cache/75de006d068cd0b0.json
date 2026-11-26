@@ -1,0 +1,31 @@
+{
+  "artist": "The Rolling Stones",
+  "title": "Sticky Fingers",
+  "year": 1971,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Rolling Stones",
+      "title": "Sticky Fingers (Super Deluxe)",
+      "id": 10472932,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/963a30f74c05a9fe130b3ba0b6765c43/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/10472932"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "title": "Sticky Fingers Live At The Fonda Theatre",
+      "id": 48732942,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/93ef19ac41420ffb842d6bdc45778632/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/48732942"
+    }
+  ],
+  "cover": "/assets/catalog-75de006d068cd0b0.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/963a30f74c05a9fe130b3ba0b6765c43/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/10472932",
+  "matchedArtist": "The Rolling Stones",
+  "matchedTitle": "Sticky Fingers (Super Deluxe)"
+}

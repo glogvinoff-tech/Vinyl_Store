@@ -1,0 +1,39 @@
+{
+  "artist": "Michael Jackson",
+  "title": "Thriller",
+  "year": 1982,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Michael Jackson",
+      "title": "Thriller",
+      "id": 96126,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f01e09ceb8ad1e96707c1b4aadb5911b/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/96126"
+    },
+    {
+      "artist": "Michael Jackson",
+      "title": "Thriller (Steve Aoki Midnight Hour Remix)",
+      "id": 49012482,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8d4b8fa7bc6dd4bc96115c9ebb1a6651/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/49012482"
+    },
+    {
+      "artist": "Michael Jackson",
+      "title": "Thriller 25 Super Deluxe Edition",
+      "id": 72819,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/92a024220a9532489c75c9d994835697/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/72819"
+    }
+  ],
+  "cover": "/assets/catalog-03f3c0e006b904b0.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/f01e09ceb8ad1e96707c1b4aadb5911b/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/96126",
+  "matchedArtist": "Michael Jackson",
+  "matchedTitle": "Thriller"
+}

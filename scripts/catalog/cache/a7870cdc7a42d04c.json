@@ -1,0 +1,9 @@
+{
+  "artist": "Dead Kennedys",
+  "title": "Fresh Fruit for Rotting Vegetables",
+  "year": 1980,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8005 milliseconds\r\ncurl: (28) Connection timed out after 8002 milliseconds\r\ncurl: (28) Connection timed out after 8004 milliseconds\r\n"
+}

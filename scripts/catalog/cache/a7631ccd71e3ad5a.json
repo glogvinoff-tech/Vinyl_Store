@@ -1,0 +1,39 @@
+{
+  "artist": "George Michael",
+  "title": "Faith",
+  "year": 1987,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "George Michael",
+      "title": "Faith",
+      "id": 751664,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f24a4351040ae09175cbd775607aafe6/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/751664"
+    },
+    {
+      "artist": "George Michael",
+      "title": "Faith",
+      "id": 897610,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f24a4351040ae09175cbd775607aafe6/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/897610"
+    },
+    {
+      "artist": "George Michael",
+      "title": "Faith",
+      "id": 921214871,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/322da5569794c14a4ce91f88a95e037f/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/921214871"
+    }
+  ],
+  "cover": "/assets/catalog-a7631ccd71e3ad5a.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/f24a4351040ae09175cbd775607aafe6/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/751664",
+  "matchedArtist": "George Michael",
+  "matchedTitle": "Faith"
+}

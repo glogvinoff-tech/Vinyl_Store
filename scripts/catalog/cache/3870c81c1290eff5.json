@@ -1,0 +1,39 @@
+{
+  "artist": "Víkingur Ólafsson",
+  "title": "Johann Sebastian Bach",
+  "year": 2018,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Vikingur Olafsson",
+      "title": "Johann Sebastian Bach",
+      "id": 72168922,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e1cb539536a6916a3a45d0151a4b1d92/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/72168922"
+    },
+    {
+      "artist": "Vikingur Olafsson",
+      "title": "For Jóhann",
+      "id": 72571622,
+      "score": 0.333,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f9fa1839c1f4ea2910427fbcf44f190e/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/72571622"
+    },
+    {
+      "artist": "Vikingur Olafsson",
+      "title": "Bach Reworks (Pt. 1)",
+      "id": 74439352,
+      "score": 0.25,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f9fa1839c1f4ea2910427fbcf44f190e/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/74439352"
+    }
+  ],
+  "cover": "/assets/catalog-3870c81c1290eff5.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/e1cb539536a6916a3a45d0151a4b1d92/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/72168922",
+  "matchedArtist": "Vikingur Olafsson",
+  "matchedTitle": "Johann Sebastian Bach"
+}

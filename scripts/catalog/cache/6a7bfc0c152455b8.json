@@ -1,0 +1,39 @@
+{
+  "artist": "Harry Styles",
+  "title": "Fine Line",
+  "year": 2019,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Harry Styles",
+      "title": "Fine Line",
+      "id": 122664252,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/122664252"
+    },
+    {
+      "artist": "skyemane",
+      "title": "Fine Line (Sped Up)",
+      "id": 689481391,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1053ef0ad7bcb16d63efb72b35ec4049/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/689481391"
+    },
+    {
+      "artist": "main character melodies",
+      "title": "fine line",
+      "id": 622410021,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/b42f474acbc90d10017c0ffb0a547f68/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/622410021"
+    }
+  ],
+  "cover": "/assets/catalog-6a7bfc0c152455b8.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/122664252",
+  "matchedArtist": "Harry Styles",
+  "matchedTitle": "Fine Line"
+}

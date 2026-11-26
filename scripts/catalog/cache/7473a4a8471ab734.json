@@ -1,0 +1,39 @@
+{
+  "artist": "Max Richter",
+  "title": "The Blue Notebooks",
+  "year": 2004,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Max Richter",
+      "title": "The Blue Notebooks (15 Years)",
+      "id": 63095522,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ed07053951a44ce34a5ca9c61a2d680f/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/63095522"
+    },
+    {
+      "artist": "Max Richter",
+      "title": "The Blue Notebooks (20 Year Edition)",
+      "id": 702379701,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/dd249e558588f8f3f6fd4f46dfcc840a/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/702379701"
+    },
+    {
+      "artist": "Alessandro Simonetto",
+      "title": "Max Richter: The Blue Notebooks",
+      "id": 587326522,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/091bfd0fc1f668df7f8ccc5f09bc60e5/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/587326522"
+    }
+  ],
+  "cover": "/assets/catalog-7473a4a8471ab734.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/ed07053951a44ce34a5ca9c61a2d680f/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/63095522",
+  "matchedArtist": "Max Richter",
+  "matchedTitle": "The Blue Notebooks (15 Years)"
+}

@@ -1,0 +1,39 @@
+{
+  "artist": "Madonna",
+  "title": "Like a Prayer",
+  "year": 1989,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Madonna",
+      "title": "Like a Prayer",
+      "id": 80554,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/cb3560d83ededa230d78f7bf047c583a/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/80554"
+    },
+    {
+      "artist": "Madonna",
+      "title": "Like A Prayer",
+      "id": 211542032,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e13f737018b7b432775d879f599c0036/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/211542032"
+    },
+    {
+      "artist": "Madonna",
+      "title": "Like A Prayer (30th Anniversary)",
+      "id": 90679962,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ecf196a1ebe7a676fa5180cbda4434db/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/90679962"
+    }
+  ],
+  "cover": "/assets/catalog-1f74d95d5f2088a2.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/cb3560d83ededa230d78f7bf047c583a/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/80554",
+  "matchedArtist": "Madonna",
+  "matchedTitle": "Like a Prayer"
+}

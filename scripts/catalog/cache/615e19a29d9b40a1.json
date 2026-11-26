@@ -1,0 +1,39 @@
+{
+  "artist": "Stan Getz",
+  "title": "Getz/Gilberto",
+  "year": 1964,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Stan Getz",
+      "title": "Getz/Gilberto",
+      "id": 184476372,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f75a005d8f7d647629c984549b034456/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/184476372"
+    },
+    {
+      "artist": "Stan Getz",
+      "title": "Getz/Gilberto (Expanded Edition)",
+      "id": 74269242,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f75a005d8f7d647629c984549b034456/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/74269242"
+    },
+    {
+      "artist": "Stan Getz",
+      "title": "Getz/Gilberto #2",
+      "id": 100636,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5cf39613759acdfc5e0cd56048eca0ee/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/100636"
+    }
+  ],
+  "cover": "/assets/catalog-615e19a29d9b40a1.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/f75a005d8f7d647629c984549b034456/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/184476372",
+  "matchedArtist": "Stan Getz",
+  "matchedTitle": "Getz/Gilberto"
+}

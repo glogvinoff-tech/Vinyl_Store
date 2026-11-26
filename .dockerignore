@@ -1,0 +1,16 @@
+.git
+.idea
+.tools
+.env
+.env.*
+!.env.example
+**/node_modules
+**/target
+frontend/dist
+exports
+docs
+**/__pycache__
+backend/src/main/resources/static/frontend-assets
+backend/src/main/resources/static/design
+backend/src/main/resources/static/fonts
+backend/src/main/resources/static/audio

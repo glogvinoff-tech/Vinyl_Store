@@ -1,0 +1,35 @@
+{
+  "artist": "Ólafur Arnalds",
+  "title": "re:member",
+  "year": 2018,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Ólafur Arnalds",
+      "title": "re:member",
+      "id": 71061002,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/514474c2a3d48cd629f956d1d4f9f9e7/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/71061002"
+    },
+    {
+      "artist": "Ólafur Arnalds",
+      "title": "re:member (choir versions)",
+      "id": 122163412,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/888f270a98c78040db98c41083137826/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/122163412"
+    },
+    {
+      "artist": "Ólafur Arnalds",
+      "title": "re:member – string quartets",
+      "id": 94376172,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/523001c6c97a08160630305dc8d8e84e/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/94376172"
+    }
+  ],
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://cdn-images.dzcdn.net/images/cover/514474c2a3d48cd629f956d1d4f9f9e7/500x500-000000-80-0-0.jpg']' timed out after 40 seconds"
+}

@@ -1,0 +1,9 @@
+{
+  "artist": "Dave Brubeck",
+  "title": "Time Out",
+  "year": 1959,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search/album?q=Dave+Brubeck+Time+Out&limit=50']' timed out after 40 seconds"
+}

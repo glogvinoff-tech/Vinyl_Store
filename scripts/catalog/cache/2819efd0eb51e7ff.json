@@ -1,0 +1,31 @@
+{
+  "artist": "Bad Religion",
+  "title": "Suffer",
+  "year": 1988,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Bad Religion",
+      "title": "Suffer",
+      "id": 43851841,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6eece45d15e303620ea784c27b307b5f/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43851841"
+    },
+    {
+      "artist": "Bad Religion",
+      "title": "All Ages",
+      "id": 43848951,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9d2c6286da5edbafcb639e33746429ca/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43848951"
+    }
+  ],
+  "cover": "/assets/catalog-2819efd0eb51e7ff.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/6eece45d15e303620ea784c27b307b5f/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/43851841",
+  "matchedArtist": "Bad Religion",
+  "matchedTitle": "Suffer"
+}

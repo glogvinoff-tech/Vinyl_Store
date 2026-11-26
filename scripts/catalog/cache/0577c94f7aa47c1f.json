@@ -1,0 +1,39 @@
+{
+  "artist": "Taylor Swift",
+  "title": "1989",
+  "year": 2014,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Taylor Swift",
+      "title": "1989",
+      "id": 9007779,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8c39b232a5edecdf5fffc14f551fa42b/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/9007779"
+    },
+    {
+      "artist": "Taylor Swift",
+      "title": "1989 (Deluxe)",
+      "id": 9007781,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/68b4e986958b17f05b062ffa8d7ae114/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/9007781"
+    },
+    {
+      "artist": "Taylor Swift",
+      "title": "1989 (Taylor's Version)",
+      "id": 504180521,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5aad85c12f4c5370d3bbb2e3549d07d9/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/504180521"
+    }
+  ],
+  "cover": "/assets/catalog-0577c94f7aa47c1f.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/8c39b232a5edecdf5fffc14f551fa42b/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/9007779",
+  "matchedArtist": "Taylor Swift",
+  "matchedTitle": "1989"
+}

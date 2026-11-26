@@ -1,0 +1,9 @@
+{
+  "artist": "Art Blakey",
+  "title": "Moanin'",
+  "year": 1959,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8001 milliseconds\r\ncurl: (28) Connection timed out after 8005 milliseconds\r\ncurl: (28) Connection timed out after 8002 milliseconds\r\n"
+}

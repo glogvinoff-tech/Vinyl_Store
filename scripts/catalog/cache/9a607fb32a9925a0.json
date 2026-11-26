@@ -1,0 +1,31 @@
+{
+  "artist": "Nils Frahm",
+  "title": "Spaces",
+  "year": 2013,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Nils Frahm",
+      "title": "Spaces",
+      "id": 85955322,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/56d8bf1bf33d44404278f46cd994f778/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/85955322"
+    },
+    {
+      "artist": "Nils Frahm",
+      "title": "Spaces (Special Edition)",
+      "id": 87918212,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ebf0b53807ee803239b7c40573d19b8f/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/87918212"
+    }
+  ],
+  "cover": "/assets/catalog-9a607fb32a9925a0.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/56d8bf1bf33d44404278f46cd994f778/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/85955322",
+  "matchedArtist": "Nils Frahm",
+  "matchedTitle": "Spaces"
+}

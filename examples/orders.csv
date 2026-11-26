@@ -1,0 +1,3 @@
+externalId,artist,albumTitle,customerName,email,phone,orderedOn,record,status,totalPrice,paid,tags,quantity
+DEMO-001,Red Hot Chili Peppers,Californication,Покупатель demo,demo@gmail.com,+79991234567,2026-11-04,LP-001,NEW,4990,false,доставка|винил,1
+DEMO-002,Phoebe Bridgers,Stranger In The Alps,Покупатель demo,demo@gmail.com,+79991234567,2026-11-04,LP-013,PAID,14970,true,подарок,3

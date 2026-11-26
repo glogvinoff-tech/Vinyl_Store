@@ -1,0 +1,9 @@
+{
+  "artist": "Herbie Hancock",
+  "title": "Head Hunters",
+  "year": 1973,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8009 milliseconds\r\ncurl: (28) Connection timed out after 8010 milliseconds\r\ncurl: (28) Connection timed out after 8014 milliseconds\r\n"
+}

@@ -1,0 +1,23 @@
+{
+  "artist": "David Bowie",
+  "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+  "year": 1972,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "David Bowie",
+      "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+      "id": 11205422,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/23bdeda0503dec55e7ba6a9f56d0c3c2/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/11205422"
+    }
+  ],
+  "cover": "/assets/catalog-69f497c3fb8cbd78.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/23bdeda0503dec55e7ba6a9f56d0c3c2/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/11205422",
+  "matchedArtist": "David Bowie",
+  "matchedTitle": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)"
+}

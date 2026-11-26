@@ -1,0 +1,39 @@
+{
+  "artist": "Dire Straits",
+  "title": "Brothers in Arms",
+  "year": 1985,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Dire Straits",
+      "title": "Brothers In Arms (Remastered 1996)",
+      "id": 226696942,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/07348a1ee308434ec12bd86a8eccadc6/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/226696942"
+    },
+    {
+      "artist": "Dire Straits",
+      "title": "Brothers In Arms (40th Anniversary)",
+      "id": 754072331,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/592683dae1c4477c12bf16f71a0d620e/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/754072331"
+    },
+    {
+      "artist": "Sina",
+      "title": "Brothers In Arms (feat. David Knight's DSUK)",
+      "id": 217288952,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f4da3a8460c56172af96c17ac46c5da9/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/217288952"
+    }
+  ],
+  "cover": "/assets/catalog-13fbcbdc12027ba3.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/07348a1ee308434ec12bd86a8eccadc6/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/226696942",
+  "matchedArtist": "Dire Straits",
+  "matchedTitle": "Brothers In Arms (Remastered 1996)"
+}

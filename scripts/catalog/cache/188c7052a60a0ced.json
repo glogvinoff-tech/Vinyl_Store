@@ -1,0 +1,39 @@
+{
+  "artist": "Prince",
+  "title": "Purple Rain",
+  "year": 1984,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Prince",
+      "title": "Purple Rain",
+      "id": 587849692,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/526d2d27a16da94b6f46fa4e786a34c9/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/587849692"
+    },
+    {
+      "artist": "Prince",
+      "title": "Purple Rain (Deluxe Expanded Edition)",
+      "id": 43280511,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8cc37398de3ee92bd31d286f30e7972d/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43280511"
+    },
+    {
+      "artist": "Tonight I'm Prince",
+      "title": "Purple Rain",
+      "id": 43639191,
+      "score": 0.85,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f62ebb65ccf14d1c1c4421a17c47f8ba/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43639191"
+    }
+  ],
+  "cover": "/assets/catalog-188c7052a60a0ced.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/526d2d27a16da94b6f46fa4e786a34c9/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/587849692",
+  "matchedArtist": "Prince",
+  "matchedTitle": "Purple Rain"
+}

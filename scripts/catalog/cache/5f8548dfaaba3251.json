@@ -1,0 +1,39 @@
+{
+  "artist": "Outkast",
+  "title": "Aquemini",
+  "year": 1998,
+  "genre": "Хип-хоп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Outkast",
+      "title": "Aquemini",
+      "id": 107860,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9aed5495a46ad76c9202589463133991/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/107860"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Aquemini",
+      "id": 180878852,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9aed5495a46ad76c9202589463133991/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/180878852"
+    },
+    {
+      "artist": "Outkast",
+      "title": "Big Boi & Dre Present...OutKast",
+      "id": 107867,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/be4f08ec67000dcf53749f87eafcb292/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/107867"
+    }
+  ],
+  "cover": "/assets/catalog-5f8548dfaaba3251.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/9aed5495a46ad76c9202589463133991/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/107860",
+  "matchedArtist": "Outkast",
+  "matchedTitle": "Aquemini"
+}

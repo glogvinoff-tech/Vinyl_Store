@@ -1,0 +1,9 @@
+{
+  "artist": "Rancid",
+  "title": "...And Out Come the Wolves",
+  "year": 1995,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8008 milliseconds\r\ncurl: (28) Connection timed out after 8010 milliseconds\r\ncurl: (28) Connection timed out after 8013 milliseconds\r\n"
+}

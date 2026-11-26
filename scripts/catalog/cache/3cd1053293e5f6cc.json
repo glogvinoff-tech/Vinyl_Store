@@ -1,0 +1,19 @@
+{
+  "artist": "Yo-Yo Ma",
+  "title": "Six Evolutions - Bach: Cello Suites",
+  "year": 2018,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Yo-Yo Ma",
+      "title": "Six Evolutions - Bach: Cello Suites",
+      "id": 65749212,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8b69cdda334c287b93acb0aefad12b0d/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/65749212"
+    }
+  ],
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://cdn-images.dzcdn.net/images/cover/8b69cdda334c287b93acb0aefad12b0d/500x500-000000-80-0-0.jpg']' timed out after 40 seconds"
+}

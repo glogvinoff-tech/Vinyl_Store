@@ -1,0 +1,39 @@
+{
+  "artist": "The Doors",
+  "title": "L.A. Woman",
+  "year": 1971,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Doors",
+      "title": "L.A. Woman",
+      "id": 6415260,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/03f8ae4438cbf73c1e1cc435123deb72/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6415260"
+    },
+    {
+      "artist": "The Doors",
+      "title": "L.A. Woman, Pt. 2 (L.A. Woman Sessions)",
+      "id": 259694342,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/119ef858068496b064227492e3ca4cf9/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/259694342"
+    },
+    {
+      "artist": "The Doors",
+      "title": "L.A. Woman (50th Anniversary Deluxe Edition)",
+      "id": 275294902,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/119ef858068496b064227492e3ca4cf9/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/275294902"
+    }
+  ],
+  "cover": "/assets/catalog-058aa718992e3d37.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/03f8ae4438cbf73c1e1cc435123deb72/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/6415260",
+  "matchedArtist": "The Doors",
+  "matchedTitle": "L.A. Woman"
+}

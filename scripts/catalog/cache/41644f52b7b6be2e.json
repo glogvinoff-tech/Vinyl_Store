@@ -1,0 +1,39 @@
+{
+  "artist": "Dua Lipa",
+  "title": "Future Nostalgia",
+  "year": 2020,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Dua Lipa",
+      "title": "Future Nostalgia (Joe Goddard Remix)",
+      "id": 171908692,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ec2b464465cde444bc7c4eada496a616/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/171908692"
+    },
+    {
+      "artist": "Dua Lipa",
+      "title": "Future Nostalgia (The Moonlight Edition)",
+      "id": 205585672,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ddc6b752586a1eb1ab4c6579eae03344/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/205585672"
+    },
+    {
+      "artist": "Dua Lipa",
+      "title": "Club Future Nostalgia (DJ Mix)",
+      "id": 169258072,
+      "score": 0.4,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0b84eed7575c774d6d95f5c98752866e/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/169258072"
+    }
+  ],
+  "cover": "/assets/catalog-41644f52b7b6be2e.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/ec2b464465cde444bc7c4eada496a616/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/171908692",
+  "matchedArtist": "Dua Lipa",
+  "matchedTitle": "Future Nostalgia (Joe Goddard Remix)"
+}

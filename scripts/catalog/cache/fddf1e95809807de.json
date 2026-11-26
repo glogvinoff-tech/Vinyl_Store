@@ -1,0 +1,9 @@
+{
+  "artist": "The Chemical Brothers",
+  "title": "Dig Your Own Hole",
+  "year": 1997,
+  "genre": "EDM",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22The+Chemical+Brothers%22+album%3A%22Dig+Your+Own+Hole%22&limit=30']' timed out after 40 seconds"
+}

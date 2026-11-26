@@ -1,0 +1,39 @@
+{
+  "artist": "Ludovico Einaudi",
+  "title": "Divenire",
+  "year": 2006,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Ludovico Einaudi",
+      "title": "Divenire",
+      "id": 118633,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4cd46c3f13ed65c5e4bc4a31a41ed3fd/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/118633"
+    },
+    {
+      "artist": "Ludovico Einaudi",
+      "title": "Divenire (Deluxe Edition)",
+      "id": 118639,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4cd46c3f13ed65c5e4bc4a31a41ed3fd/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/118639"
+    },
+    {
+      "artist": "Ludovico Einaudi",
+      "title": "Experience",
+      "id": 641369561,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9fbb34d321e282fc3562f7853ae5da5b/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/641369561"
+    }
+  ],
+  "cover": "/assets/catalog-ebe2f6adec26fcb1.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/4cd46c3f13ed65c5e4bc4a31a41ed3fd/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/118633",
+  "matchedArtist": "Ludovico Einaudi",
+  "matchedTitle": "Divenire"
+}

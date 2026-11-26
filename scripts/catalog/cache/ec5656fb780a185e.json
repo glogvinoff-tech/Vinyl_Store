@@ -1,0 +1,31 @@
+{
+  "artist": "A Tribe Called Quest",
+  "title": "The Low End Theory",
+  "year": 1991,
+  "genre": "Хип-хоп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "A Tribe Called Quest",
+      "title": "The Low End Theory",
+      "id": 242316,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/08793909075a6d5f812fdfab902f03b0/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/242316"
+    },
+    {
+      "artist": "Tom Petty",
+      "title": "Wildflowers",
+      "id": 381656,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f04bccaed50eddd323fea164624b70fe/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/381656"
+    }
+  ],
+  "cover": "/assets/catalog-ec5656fb780a185e.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/08793909075a6d5f812fdfab902f03b0/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/242316",
+  "matchedArtist": "A Tribe Called Quest",
+  "matchedTitle": "The Low End Theory"
+}

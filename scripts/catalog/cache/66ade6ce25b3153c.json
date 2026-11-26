@@ -1,0 +1,9 @@
+{
+  "artist": "Philip Glass",
+  "title": "Glassworks",
+  "year": 1982,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search/album?q=Philip+Glass+Glassworks&limit=50']' timed out after 40 seconds"
+}

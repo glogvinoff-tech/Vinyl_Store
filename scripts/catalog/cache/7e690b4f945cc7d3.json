@@ -1,0 +1,9 @@
+{
+  "artist": "Daniel Barenboim",
+  "title": "Beethoven: Piano Sonatas Nos. 8, 14 & 23",
+  "year": 1984,
+  "genre": "Классика",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Daniel+Barenboim%22+album%3A%22Beethoven%3A+Piano+Sonatas+Nos.+8%2C+14+%26+23%22&limit=30']' timed out after 40 seconds"
+}

@@ -1,0 +1,17 @@
+-- Структура предметной области КР №1. Если база уже существует, данные сохраняются.
+CREATE TABLE IF NOT EXISTS users (
+ id BIGSERIAL PRIMARY KEY, full_name VARCHAR(50) NOT NULL,
+ email VARCHAR(120) NOT NULL UNIQUE, phone VARCHAR(30) NOT NULL UNIQUE
+);
+CREATE TABLE IF NOT EXISTS vinyl (
+ id BIGSERIAL PRIMARY KEY, title VARCHAR(50) NOT NULL, artist VARCHAR(50) NOT NULL,
+ genre VARCHAR(30), price NUMERIC(10,2) NOT NULL CHECK(price>0),
+ stock INTEGER NOT NULL DEFAULT 0 CHECK(stock>=0)
+);
+CREATE TABLE IF NOT EXISTS orders (
+ id BIGSERIAL PRIMARY KEY, user_id BIGINT NOT NULL REFERENCES users(id),
+ album_title VARCHAR(160) NOT NULL, artist VARCHAR(120) NOT NULL,
+ quantity INTEGER NOT NULL CHECK(quantity>0), total_price NUMERIC(10,2) NOT NULL CHECK(total_price>0),
+ status VARCHAR(20) NOT NULL CHECK(status IN ('NEW','PAID','SHIPPED','COMPLETED','CANCELED')),
+ created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

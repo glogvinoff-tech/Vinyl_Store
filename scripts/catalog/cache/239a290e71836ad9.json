@@ -1,0 +1,9 @@
+{
+  "artist": "Fatboy Slim",
+  "title": "You've Come a Long Way, Baby",
+  "year": 1998,
+  "genre": "EDM",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Fatboy+Slim%22+album%3A%22You%27ve+Come+a+Long+Way%2C+Baby%22&limit=30']' timed out after 40 seconds"
+}

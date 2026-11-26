@@ -1,0 +1,39 @@
+{
+  "artist": "Billie Eilish",
+  "title": "Happier Than Ever",
+  "year": 2021,
+  "genre": "Поп",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Billie Eilish",
+      "title": "Happier Than Ever",
+      "id": 248214242,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9955047483278bd0f93420951226ac44/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/248214242"
+    },
+    {
+      "artist": "Billie Eilish",
+      "title": "Happier Than Ever (Edit)",
+      "id": 256267342,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bb2880548dd3bc71fb97def2eedec130/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/256267342"
+    },
+    {
+      "artist": "La vie Band",
+      "title": "Happier Than Ever",
+      "id": 1065361181,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e6bccf3cc620ef92ca643eb312ea2c7a/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1065361181"
+    }
+  ],
+  "cover": "/assets/catalog-ae6ad208e6cfc999.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/9955047483278bd0f93420951226ac44/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/248214242",
+  "matchedArtist": "Billie Eilish",
+  "matchedTitle": "Happier Than Ever"
+}

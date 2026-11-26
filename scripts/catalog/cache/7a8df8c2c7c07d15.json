@@ -1,0 +1,9 @@
+{
+  "artist": "Daft Punk",
+  "title": "Discovery",
+  "year": 2001,
+  "genre": "EDM",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Daft+Punk%22+album%3A%22Discovery%22&limit=30']' timed out after 40 seconds"
+}

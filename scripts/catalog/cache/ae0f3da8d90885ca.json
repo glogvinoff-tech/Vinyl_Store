@@ -1,0 +1,39 @@
+{
+  "artist": "The Damned",
+  "title": "Damned Damned Damned",
+  "year": 1977,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Damned",
+      "title": "Damned Damned Damned",
+      "id": 901495972,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a99567978cfc55cd400a68ec33c3e390/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/901495972"
+    },
+    {
+      "artist": "The Damned",
+      "title": "Damned Damned Damned (Remastered 2017)",
+      "id": 888987932,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/b9526a1cabc3ac19d548277166c3ad8b/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/888987932"
+    },
+    {
+      "artist": "The Damned",
+      "title": "Damned Damned Damned (30th Anniversary Expanded Edition)",
+      "id": 906325862,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e6128c7c9198802c22a86849a27bfd11/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/906325862"
+    }
+  ],
+  "cover": "/assets/catalog-ae0f3da8d90885ca.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/a99567978cfc55cd400a68ec33c3e390/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/901495972",
+  "matchedArtist": "The Damned",
+  "matchedTitle": "Damned Damned Damned"
+}

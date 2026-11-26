@@ -1,0 +1,9 @@
+{
+  "artist": "Bill Evans",
+  "title": "Waltz for Debby",
+  "year": 1962,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8000 milliseconds\r\ncurl: (28) Connection timed out after 8016 milliseconds\r\ncurl: (28) Connection timed out after 8004 milliseconds\r\n"
+}

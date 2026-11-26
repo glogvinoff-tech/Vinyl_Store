@@ -1,0 +1,23 @@
+dialog:has(.sales-forecast) { width: min(1100px, 96vw); max-width: 96vw; }
+.sales-forecast { padding: 12px; min-width: 0; }
+.sales-forecast h2 { font-size: clamp(24px, 4vw, 42px); margin: 12px 0 20px; }
+.sales-forecast h3 { font-size: 24px; margin: 24px 0 12px; }
+.sales-forecast p { margin: 12px 0; }
+.sales-forecast .forecast-note { color: #626262; font-size: 14px; }
+.forecast-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 20px 0; }
+.forecast-metrics > div { background: #f5f5f5; padding: 18px; border-radius: 14px; }
+.forecast-metrics span, .forecast-metrics strong, .forecast-metrics small { display: block; }
+.forecast-metrics strong { font-size: 25px; margin: 10px 0; }
+.forecast-chart { overflow-x: auto; }
+.forecast-chart svg { width: 100%; min-width: 640px; }
+.forecast-chart .predicted { fill: #f14e2f; }
+.forecast-chart .historical { fill: #666; }
+.forecast-chart text { font: 12px Arial, sans-serif; fill: #2c2c2c; }
+.forecast-filters { display: flex; gap: 16px; flex-wrap: wrap; margin: 24px 0; }
+.forecast-filters label { display: grid; gap: 6px; }
+.forecast-filters select { padding: 10px; max-width: 100%; }
+.forecast-table { overflow-x: auto; }
+.forecast-table table { width: 100%; border-collapse: collapse; }
+.forecast-table th, .forecast-table td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; white-space: nowrap; }
+.sales-forecast summary { cursor: pointer; margin: 16px 0; }
+@media (max-width: 650px) { .forecast-metrics { grid-template-columns: 1fr; } .sales-forecast { padding: 0; } }

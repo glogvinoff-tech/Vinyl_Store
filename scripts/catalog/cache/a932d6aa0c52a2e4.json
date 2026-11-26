@@ -1,0 +1,9 @@
+{
+  "artist": "Charles Mingus",
+  "title": "Mingus Ah Um",
+  "year": 1959,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search/album?q=Charles+Mingus+Mingus+Ah+Um&limit=50']' timed out after 40 seconds"
+}

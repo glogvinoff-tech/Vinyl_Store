@@ -1,0 +1,39 @@
+{
+  "artist": "John Coltrane",
+  "title": "Blue Train",
+  "year": 1958,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "John Coltrane",
+      "title": "Blue Train",
+      "id": 100448982,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/42888514a6c4258bec5487f9bfea7b44/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/100448982"
+    },
+    {
+      "artist": "John Coltrane",
+      "title": "Blue Train",
+      "id": 14093412,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8c14cb6c10e428ba1b4f1ff3c6a18533/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/14093412"
+    },
+    {
+      "artist": "John Coltrane",
+      "title": "Blue Train",
+      "id": 6069122,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/b2677d5bbc926613c80f13d6cfb38093/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6069122"
+    }
+  ],
+  "cover": "/assets/catalog-6c90e69f1c772ad2.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/42888514a6c4258bec5487f9bfea7b44/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/100448982",
+  "matchedArtist": "John Coltrane",
+  "matchedTitle": "Blue Train"
+}

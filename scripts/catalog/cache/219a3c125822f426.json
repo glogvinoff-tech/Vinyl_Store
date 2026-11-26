@@ -1,0 +1,39 @@
+{
+  "artist": "AC/DC",
+  "title": "Back in Black",
+  "year": 1980,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "AC/DC",
+      "title": "Back In Black (Live)",
+      "id": 138945832,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e3e1b527482475c5c898ebb4b034ac2d/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/138945832"
+    },
+    {
+      "artist": "Tuna Rimbaud",
+      "title": "Back In Black (Cover)",
+      "id": 1109935462,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e34849a6935df62e3636f72db990c9af/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1109935462"
+    },
+    {
+      "artist": "Sershen&Zaritskaya",
+      "title": "Back in Black",
+      "id": 119814452,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6b8fadcafc3dfaf5d54433db14862fee/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/119814452"
+    }
+  ],
+  "cover": "/assets/catalog-219a3c125822f426.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/e3e1b527482475c5c898ebb4b034ac2d/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/138945832",
+  "matchedArtist": "AC/DC",
+  "matchedTitle": "Back In Black (Live)"
+}

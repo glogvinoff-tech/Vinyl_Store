@@ -1,0 +1,39 @@
+{
+  "artist": "Miles Davis",
+  "title": "Kind of Blue",
+  "year": 1959,
+  "genre": "Джаз",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Miles Davis",
+      "title": "Kind Of Blue",
+      "id": 1441464,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/88aec77a2c4a8ed8dd3c709a9fe418bc/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/1441464"
+    },
+    {
+      "artist": "Miles Davis",
+      "title": "Kind Of Blue",
+      "id": 56366202,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/998949a726d6d8c494b2a6b6a4284451/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/56366202"
+    },
+    {
+      "artist": "Miles Davis",
+      "title": "Kind of Blue",
+      "id": 6967251,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/099c8d117e85de2178979c645ff96f53/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/6967251"
+    }
+  ],
+  "cover": "/assets/catalog-79363450a9b9cb07.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/88aec77a2c4a8ed8dd3c709a9fe418bc/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/1441464",
+  "matchedArtist": "Miles Davis",
+  "matchedTitle": "Kind Of Blue"
+}

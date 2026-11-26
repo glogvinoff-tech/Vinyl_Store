@@ -1,0 +1,39 @@
+{
+  "artist": "The Offspring",
+  "title": "Smash",
+  "year": 1994,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "The Offspring",
+      "title": "Smash (2008 Remaster)",
+      "id": 43852191,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7199697566542a1b1d7918e3cb381899/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43852191"
+    },
+    {
+      "artist": "Verschillende artiesten",
+      "title": "2000's Rock Hits",
+      "id": 208221742,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/901cb9d4a5840ea27502bc14139332f2/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/208221742"
+    },
+    {
+      "artist": "Verschillende artiesten",
+      "title": "Another Round - Încă un rând!",
+      "id": 739718111,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e696dedd91609c6ac61626a28782ed65/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/739718111"
+    }
+  ],
+  "cover": "/assets/catalog-c4d99f8d8b44f9b7.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/7199697566542a1b1d7918e3cb381899/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/43852191",
+  "matchedArtist": "The Offspring",
+  "matchedTitle": "Smash (2008 Remaster)"
+}

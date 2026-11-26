@@ -1,0 +1,123 @@
+-- Расширенный демонстрационный каталог: 61 пластинка, минимум 3 позиции на каждый жанр витрины.
+-- Пометки (categories) соответствуют фильтрам витрины: Цветной винил, Подарочные издания,
+-- Русское, Редкий винтаж, CD, Эксклюзивы. «Скидки» задаются discount_percent, «Новые поступления» — created_at.
+-- Идемпотентно: повторное выполнение не создаёт дубликаты (ON CONFLICT DO NOTHING).
+
+INSERT INTO vinyl_record(id,code,name,artist,genre,cover,release_year,price,stock,description,active,created_at,updated_at,version,categories,images,discount_percent) VALUES
+('00000000-0000-0000-0000-000000000014','LP-014','Звезда по имени Солнце','Кино','Rock','/assets/catalog-5f8548dfaaba3251.jpg',1989,5490,12,'Русское издание альбома «Звезда по имени Солнце» на виниле. Редкий винтажный пресс, состояние проверено.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское,Редкий винтаж','/assets/catalog-5f8548dfaaba3251.jpg',0),
+('00000000-0000-0000-0000-000000000015','LP-015','Мир номер ноль','ДДТ','Rock','/assets/catalog-615e19a29d9b40a1.jpg',1999,4990,9,'Русское издание альбома «Мир номер ноль» на виниле.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское','/assets/catalog-615e19a29d9b40a1.jpg',15),
+('00000000-0000-0000-0000-000000000016','LP-016','Жанна Агузарова и Браво','Браво','Rock','/assets/catalog-69f497c3fb8cbd78.jpg',1987,4590,7,'Русское издание альбома «Жанна Агузарова и Браво». Редкий винтажный пресс.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское,Редкий винтаж','/assets/catalog-69f497c3fb8cbd78.jpg',0),
+('00000000-0000-0000-0000-000000000017','LP-017','Led Zeppelin IV','Led Zeppelin','Rock','/assets/catalog-6a7bfc0c152455b8.jpg',1971,7490,6,'Редкий винтажный пресс альбома «Led Zeppelin IV». Состояние проверено.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-6a7bfc0c152455b8.jpg',10),
+('00000000-0000-0000-0000-000000000018','LP-018','The Dark Side of the Moon','Pink Floyd','Rock','/assets/catalog-6c90e69f1c772ad2.jpg',1973,8990,11,'Подарочное издание альбома «The Dark Side of the Moon» в оформленном боксе. Редкий винтаж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания,Редкий винтаж','/assets/catalog-6c90e69f1c772ad2.jpg',0),
+('00000000-0000-0000-0000-000000000019','LP-019','Gold: Greatest Hits','ABBA','Pop','/assets/catalog-6d081421cf07a013.jpg',1992,4590,14,'Цветной винил 180 г. Сборник «Gold: Greatest Hits».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-6d081421cf07a013.jpg',15),
+('00000000-0000-0000-0000-000000000020','LP-020','Illmatic','Nas','Hip Hop','/assets/catalog-7473a4a8471ab734.jpg',1994,5990,8,'Эксклюзивное издание альбома «Illmatic», ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Эксклюзивы','/assets/catalog-7473a4a8471ab734.jpg',0),
+('00000000-0000-0000-0000-000000000021','LP-021','Ready to Die','The Notorious B.I.G.','Hip Hop','/assets/catalog-75de006d068cd0b0.jpg',1994,6390,10,'Цветной винил 180 г. Альбом «Ready to Die».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-75de006d068cd0b0.jpg',0),
+('00000000-0000-0000-0000-000000000022','LP-022','The Low End Theory','A Tribe Called Quest','Hip Hop','/assets/catalog-79363450a9b9cb07.jpg',1991,5790,6,'Виниловое издание альбома «The Low End Theory». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-79363450a9b9cb07.jpg',20),
+('00000000-0000-0000-0000-000000000023','LP-023','The Fat of the Land','The Prodigy','Electronic','/assets/catalog-841939ff208d8822.jpg',1997,6290,13,'Цветной винил 180 г. Альбом «The Fat of the Land».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-841939ff208d8822.jpg',0),
+('00000000-0000-0000-0000-000000000024','LP-024','Mezzanine','Massive Attack','Electronic','/assets/catalog-8d7fa129c60871ef.jpg',1998,7490,7,'Эксклюзивное издание альбома «Mezzanine», ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Эксклюзивы','/assets/catalog-8d7fa129c60871ef.jpg',0),
+('00000000-0000-0000-0000-000000000025','LP-025','Moon Safari','Air','Electronic','/assets/catalog-9a607fb32a9925a0.jpg',1998,6890,9,'Подарочное издание альбома «Moon Safari» в оформленном боксе.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания','/assets/catalog-9a607fb32a9925a0.jpg',0),
+('00000000-0000-0000-0000-000000000026','LP-026','Симфония №6 «Патетическая»','Пётр Чайковский','Classical','/assets/catalog-a3b8be46eeaebf24.jpg',1959,3990,15,'Русское издание симфонии на виниле. Редкий винтажный пресс студии «Мелодия».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское,Редкий винтаж','/assets/catalog-a3b8be46eeaebf24.jpg',0),
+('00000000-0000-0000-0000-000000000027','LP-027','Концерт №2 для фортепиано с оркестром','Сергей Рахманинов','Classical','/assets/catalog-a7631ccd71e3ad5a.jpg',1965,4290,12,'Русское издание концерта на виниле.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское','/assets/catalog-a7631ccd71e3ad5a.jpg',0),
+('00000000-0000-0000-0000-000000000028','LP-028','Бранденбургские концерты','Иоганн Себастьян Бах','Classical','/assets/catalog-ae0f3da8d90885ca.jpg',1962,5490,5,'Подарочное издание «Бранденбургских концертов» в боксе. Редкий винтаж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж,Подарочные издания','/assets/catalog-ae0f3da8d90885ca.jpg',10),
+('00000000-0000-0000-0000-000000000029','LP-029','Kind of Blue','Miles Davis','Jazz','/assets/catalog-ae6ad208e6cfc999.jpg',1959,7990,8,'Редкий винтажный пресс альбома «Kind of Blue». Состояние проверено.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-ae6ad208e6cfc999.jpg',0),
+('00000000-0000-0000-0000-000000000030','LP-030','A Love Supreme','John Coltrane','Jazz','/assets/catalog-c4d99f8d8b44f9b7.jpg',1965,6990,10,'Цветной винил 180 г. Альбом «A Love Supreme».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-c4d99f8d8b44f9b7.jpg',0),
+('00000000-0000-0000-0000-000000000031','LP-031','I Put a Spell on You','Nina Simone','Jazz','/assets/catalog-c5b9e9d33d9ebcd4.jpg',1965,5490,11,'Подарочное издание альбома «I Put a Spell on You» в оформленном боксе.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания','/assets/catalog-c5b9e9d33d9ebcd4.jpg',15),
+('00000000-0000-0000-0000-000000000032','LP-032','Ramones','Ramones','Punk','/assets/catalog-cdccf1fe948ddb84.jpg',1976,4990,13,'Редкий винтажный пресс дебютного альбома «Ramones».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-cdccf1fe948ddb84.jpg',0),
+('00000000-0000-0000-0000-000000000033','LP-033','London Calling','The Clash','Punk','/assets/catalog-ce5319acfb9fbef9.jpg',1979,6490,8,'Эксклюзивное издание альбома «London Calling», ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Эксклюзивы','/assets/catalog-ce5319acfb9fbef9.jpg',0),
+('00000000-0000-0000-0000-000000000034','LP-034','Король и Шут','Король и Шут','Punk','/assets/catalog-ebe2f6adec26fcb1.jpg',1996,5290,16,'Русское издание дебютного альбома на цветном виниле 180 г.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское,Цветной винил','/assets/catalog-ebe2f6adec26fcb1.jpg',0),
+('00000000-0000-0000-0000-000000000035','LP-035','18 Months','Calvin Harris','EDM','/assets/catalog-ec5656fb780a185e.jpg',2012,5890,12,'Цветной винил 180 г. Альбом «18 Months».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-ec5656fb780a185e.jpg',0),
+('00000000-0000-0000-0000-000000000036','LP-036','True','Avicii','EDM','/assets/catalog-03f3c0e006b904b0.jpg',2013,4990,18,'Виниловое издание альбома «True». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-03f3c0e006b904b0.jpg',25),
+('00000000-0000-0000-0000-000000000037','LP-037','Recess','Skrillex','EDM','/assets/catalog-0577c94f7aa47c1f.jpg',2014,3990,20,'Издание на компакт-диске (CD) с буклетом.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'CD','/assets/catalog-0577c94f7aa47c1f.jpg',0),
+('00000000-0000-0000-0000-000000000038','LP-038','Master of Puppets','Metallica','Metal','/assets/catalog-058aa718992e3d37.jpg',1986,7490,9,'Цветной винил 180 г. Редкий винтажный пресс альбома «Master of Puppets».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж,Цветной винил','/assets/catalog-058aa718992e3d37.jpg',0),
+('00000000-0000-0000-0000-000000000039','LP-039','Paranoid','Black Sabbath','Metal','/assets/catalog-13fbcbdc12027ba3.jpg',1970,6990,7,'Редкий винтажный пресс альбома «Paranoid». Состояние проверено.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-13fbcbdc12027ba3.jpg',0),
+('00000000-0000-0000-0000-000000000040','LP-040','The Number of the Beast','Iron Maiden','Metal','/assets/catalog-188c7052a60a0ced.jpg',1982,6590,10,'Эксклюзивное издание альбома «The Number of the Beast», ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Эксклюзивы','/assets/catalog-188c7052a60a0ced.jpg',10),
+('00000000-0000-0000-0000-000000000041','LP-041','Songs in the Key of Life','Stevie Wonder','R&B','/assets/catalog-1aec37971a5ba564.jpg',1976,7290,6,'Подарочное издание альбома «Songs in the Key of Life» в оформленном боксе.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания','/assets/catalog-1aec37971a5ba564.jpg',0),
+('00000000-0000-0000-0000-000000000042','LP-042','What''s Going On','Marvin Gaye','R&B','/assets/catalog-1f74d95d5f2088a2.jpg',1971,6890,8,'Редкий винтажный пресс альбома «What''s Going On».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-1f74d95d5f2088a2.jpg',0),
+('00000000-0000-0000-0000-000000000043','LP-043','Lemonade','Beyoncé','R&B','/assets/catalog-21461c82ab9fffa4.jpg',2016,7990,11,'Цветной винил 180 г. Альбом «Lemonade».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-21461c82ab9fffa4.jpg',15),
+('00000000-0000-0000-0000-000000000044','LP-044','Modal Soul','Nujabes','Lo-fi','/assets/catalog-219a3c125822f426.jpg',2005,8490,5,'Эксклюзивное издание альбома «Modal Soul», ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Эксклюзивы','/assets/catalog-219a3c125822f426.jpg',0),
+('00000000-0000-0000-0000-000000000045','LP-045','Donuts','J Dilla','Lo-fi','/assets/catalog-2819efd0eb51e7ff.jpg',2006,7790,7,'Цветной винил 180 г. Альбом «Donuts».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-2819efd0eb51e7ff.jpg',0),
+('00000000-0000-0000-0000-000000000046','LP-046','Dive','Tycho','Lo-fi','/assets/catalog-3870c81c1290eff5.jpg',2011,5990,13,'Цветной винил 180 г. Альбом «Dive».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-3870c81c1290eff5.jpg',20),
+('00000000-0000-0000-0000-000000000047','LP-047','Live at the Regal','B.B. King','Blues','/assets/catalog-41644f52b7b6be2e.jpg',1965,6490,6,'Редкий винтажный пресс альбома «Live at the Regal».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-41644f52b7b6be2e.jpg',0),
+('00000000-0000-0000-0000-000000000048','LP-048','Folk Singer','Muddy Waters','Blues','/assets/catalog-4d531e4dd2b4eed6.jpg',1964,6990,5,'Подарочное издание альбома «Folk Singer» в боксе. Редкий винтаж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж,Подарочные издания','/assets/catalog-4d531e4dd2b4eed6.jpg',0),
+('00000000-0000-0000-0000-000000000049','LP-049','Unplugged','Eric Clapton','Blues','/assets/catalog-5f8548dfaaba3251.jpg',1992,5490,15,'Издание на компакт-диске (CD) с буклетом.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'CD','/assets/catalog-5f8548dfaaba3251.jpg',15),
+('00000000-0000-0000-0000-000000000050','LP-050','At Folsom Prison','Johnny Cash','Country','/assets/catalog-615e19a29d9b40a1.jpg',1968,6290,8,'Редкий винтажный пресс альбома «At Folsom Prison».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-615e19a29d9b40a1.jpg',0),
+('00000000-0000-0000-0000-000000000051','LP-051','Coat of Many Colors','Dolly Parton','Country','/assets/catalog-69f497c3fb8cbd78.jpg',1971,5990,9,'Редкий винтажный пресс альбома «Coat of Many Colors».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-69f497c3fb8cbd78.jpg',0),
+('00000000-0000-0000-0000-000000000052','LP-052','Traveller','Chris Stapleton','Country','/assets/catalog-6a7bfc0c152455b8.jpg',2015,6890,12,'Цветной винил 180 г. Альбом «Traveller».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-6a7bfc0c152455b8.jpg',10),
+('00000000-0000-0000-0000-000000000053','LP-053','In Rainbows','Radiohead','Alternative','/assets/catalog-6c90e69f1c772ad2.jpg',2007,8990,10,'Цветной винил 180 г. Эксклюзивное издание альбома «In Rainbows».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил,Эксклюзивы','/assets/catalog-6c90e69f1c772ad2.jpg',0),
+('00000000-0000-0000-0000-000000000054','LP-054','AM','Arctic Monkeys','Alternative','/assets/catalog-6d081421cf07a013.jpg',2013,7490,14,'Цветной винил 180 г. Альбом «AM».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-6d081421cf07a013.jpg',0),
+('00000000-0000-0000-0000-000000000055','LP-055','Is This It','The Strokes','Alternative','/assets/catalog-7473a4a8471ab734.jpg',2001,6290,9,'Виниловое издание альбома «Is This It». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-7473a4a8471ab734.jpg',20),
+('00000000-0000-0000-0000-000000000056','LP-056','Морская','Сплин','Alternative','/assets/catalog-75de006d068cd0b0.jpg',1998,4790,13,'Русское издание альбома «Морская» на виниле.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское','/assets/catalog-75de006d068cd0b0.jpg',0),
+('00000000-0000-0000-0000-000000000057','LP-057','Земфира','Земфира','Alternative','/assets/catalog-79363450a9b9cb07.jpg',1999,5290,11,'Русское издание дебютного альбома на цветном виниле 180 г.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское,Цветной винил','/assets/catalog-79363450a9b9cb07.jpg',0),
+('00000000-0000-0000-0000-000000000058','LP-058','Икра','Мумий Тролль','Alternative','/assets/catalog-841939ff208d8822.jpg',1997,4590,10,'Русское издание альбома «Икра» на виниле.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Русское','/assets/catalog-841939ff208d8822.jpg',15),
+('00000000-0000-0000-0000-000000000059','LP-059','Currents','Tame Impala','Indie','/assets/catalog-8d7fa129c60871ef.jpg',2015,7990,12,'Цветной винил 180 г. Альбом «Currents».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-8d7fa129c60871ef.jpg',0),
+('00000000-0000-0000-0000-000000000060','LP-060','Legend','Bob Marley','Reggae','/assets/catalog-9a607fb32a9925a0.jpg',1984,5990,15,'Редкий винтажный пресс сборника «Legend».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-9a607fb32a9925a0.jpg',0),
+('00000000-0000-0000-0000-000000000061','LP-061','Legalize It','Peter Tosh','Reggae','/assets/catalog-a3b8be46eeaebf24.jpg',1976,5490,7,'Редкий винтажный пресс альбома «Legalize It».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-a3b8be46eeaebf24.jpg',0),
+('00000000-0000-0000-0000-000000000062','LP-062','Funky Kingston','Toots and the Maytals','Reggae','/assets/catalog-a7631ccd71e3ad5a.jpg',1973,4990,8,'Виниловое издание альбома «Funky Kingston». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-a7631ccd71e3ad5a.jpg',15),
+('00000000-0000-0000-0000-000000000063','LP-063','Map of the Soul: 7','BTS','K-pop','/assets/catalog-ae0f3da8d90885ca.jpg',2020,9990,16,'Подарочное издание альбома «Map of the Soul: 7». Эксклюзив, ограниченный тираж.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания,Эксклюзивы','/assets/catalog-ae0f3da8d90885ca.jpg',0),
+('00000000-0000-0000-0000-000000000064','LP-064','The Album','BLACKPINK','K-pop','/assets/catalog-ae6ad208e6cfc999.jpg',2020,8990,14,'Цветной винил 180 г. Альбом «The Album».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-ae6ad208e6cfc999.jpg',0),
+('00000000-0000-0000-0000-000000000065','LP-065','5-Star','Stray Kids','K-pop','/assets/catalog-c4d99f8d8b44f9b7.jpg',2023,6990,18,'Издание на компакт-диске (CD) с буклетом.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'CD','/assets/catalog-c4d99f8d8b44f9b7.jpg',10),
+('00000000-0000-0000-0000-000000000066','LP-066','I Never Loved a Man the Way I Love You','Aretha Franklin','Soul','/assets/catalog-c5b9e9d33d9ebcd4.jpg',1967,6490,6,'Редкий винтажный пресс альбома «I Never Loved a Man the Way I Love You».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-c5b9e9d33d9ebcd4.jpg',0),
+('00000000-0000-0000-0000-000000000067','LP-067','Otis Blue','Otis Redding','Soul','/assets/catalog-cdccf1fe948ddb84.jpg',1965,6790,5,'Редкий винтажный пресс альбома «Otis Blue». Состояние проверено.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-cdccf1fe948ddb84.jpg',0),
+('00000000-0000-0000-0000-000000000068','LP-068','United','Marvin Gaye & Tammi Terrell','Soul','/assets/catalog-ce5319acfb9fbef9.jpg',1967,5890,7,'Подарочное издание альбома «United» в оформленном боксе.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания','/assets/catalog-ce5319acfb9fbef9.jpg',10),
+('00000000-0000-0000-0000-000000000069','LP-069','Live at the Apollo','James Brown','Funk','/assets/catalog-ebe2f6adec26fcb1.jpg',1963,6290,5,'Редкий винтажный пресс альбома «Live at the Apollo».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Редкий винтаж','/assets/catalog-ebe2f6adec26fcb1.jpg',0),
+('00000000-0000-0000-0000-000000000070','LP-070','Mothership Connection','Parliament','Funk','/assets/catalog-ec5656fb780a185e.jpg',1975,7190,8,'Цветной винил 180 г. Альбом «Mothership Connection».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-ec5656fb780a185e.jpg',0),
+('00000000-0000-0000-0000-000000000071','LP-071','That''s the Way of the World','Earth, Wind & Fire','Funk','/assets/catalog-03f3c0e006b904b0.jpg',1975,5990,9,'Виниловое издание альбома «That''s the Way of the World». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-03f3c0e006b904b0.jpg',15),
+('00000000-0000-0000-0000-000000000072','LP-072','Saturday Night Fever','Bee Gees','Disco','/assets/catalog-0577c94f7aa47c1f.jpg',1977,7490,10,'Подарочное издание саундтрека «Saturday Night Fever» в боксе.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Подарочные издания','/assets/catalog-0577c94f7aa47c1f.jpg',0),
+('00000000-0000-0000-0000-000000000073','LP-073','Bad Girls','Donna Summer','Disco','/assets/catalog-058aa718992e3d37.jpg',1979,6990,8,'Цветной винил 180 г. Альбом «Bad Girls».',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'Цветной винил','/assets/catalog-058aa718992e3d37.jpg',0),
+('00000000-0000-0000-0000-000000000074','LP-074','Risqué','Chic','Disco','/assets/catalog-13fbcbdc12027ba3.jpg',1979,5490,11,'Виниловое издание альбома «Risqué». Откройте новое звучание любимой музыки.',TRUE,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,0,'','/assets/catalog-13fbcbdc12027ba3.jpg',20)
+ON CONFLICT DO NOTHING;
+
+-- Пометки и рабочие обложки для исходных 13 позиций демо-каталога.
+-- Правки администратора не затираются: меняются только пустые пометки и стандартные несуществующие обложки.
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-6d081421cf07a013.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-6d081421cf07a013.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-001';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Эксклюзивы' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-7473a4a8471ab734.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-7473a4a8471ab734.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-002';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Подарочные издания' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-75de006d068cd0b0.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-75de006d068cd0b0.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-003';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил,Эксклюзивы' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-79363450a9b9cb07.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-79363450a9b9cb07.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-004';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'CD' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-841939ff208d8822.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-841939ff208d8822.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-005';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Редкий винтаж' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-8d7fa129c60871ef.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-8d7fa129c60871ef.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-006';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-9a607fb32a9925a0.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-9a607fb32a9925a0.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-007';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Подарочные издания' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-a3b8be46eeaebf24.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-a3b8be46eeaebf24.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-008';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-a7631ccd71e3ad5a.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-a7631ccd71e3ad5a.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-009';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Эксклюзивы' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-ae0f3da8d90885ca.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-ae0f3da8d90885ca.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-010';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-ae6ad208e6cfc999.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-ae6ad208e6cfc999.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-011';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Цветной винил,Эксклюзивы' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-c4d99f8d8b44f9b7.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-c4d99f8d8b44f9b7.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-012';
+UPDATE vinyl_record SET categories = CASE WHEN categories='' THEN 'Подарочные издания' ELSE categories END,
+    cover = CASE WHEN cover LIKE '/assets/%imgImage%' THEN '/assets/catalog-c5b9e9d33d9ebcd4.jpg' ELSE cover END,
+    images = CASE WHEN images='' THEN '/assets/catalog-c5b9e9d33d9ebcd4.jpg' ELSE images END,
+    updated_at=CURRENT_TIMESTAMP, version=version+1 WHERE code='LP-013';

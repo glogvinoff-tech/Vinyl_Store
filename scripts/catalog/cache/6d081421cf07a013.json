@@ -1,0 +1,39 @@
+{
+  "artist": "Pink Floyd",
+  "title": "The Dark Side of the Moon",
+  "year": 1973,
+  "genre": "Рок",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Pink Floyd",
+      "title": "The Dark Side of the Moon",
+      "id": 12114240,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e635a8510c1a74bc089b3566ebbb9cb8/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/12114240"
+    },
+    {
+      "artist": "Pink Floyd",
+      "title": "The Dark Side Of The Moon (Live at Wembley 1974) [2023 Master]",
+      "id": 418901027,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/dbd3ebdad75aa212b4fc07dae2bd0001/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/418901027"
+    },
+    {
+      "artist": "Recursiveidentity",
+      "title": "Refractions: Dark Side of the Moon Reimagined",
+      "id": 824503931,
+      "score": 0.0,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d8c758750868675b53a1b2ae5ee3ed28/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/824503931"
+    }
+  ],
+  "cover": "/assets/catalog-6d081421cf07a013.jpg",
+  "imageSource": "https://cdn-images.dzcdn.net/images/cover/e635a8510c1a74bc089b3566ebbb9cb8/500x500-000000-80-0-0.jpg",
+  "metadataSource": "https://www.deezer.com/album/12114240",
+  "matchedArtist": "Pink Floyd",
+  "matchedTitle": "The Dark Side of the Moon"
+}

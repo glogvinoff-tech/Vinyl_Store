@@ -1,0 +1,4 @@
+ALTER TABLE vinyl_record ADD COLUMN categories VARCHAR(1100) NOT NULL DEFAULT '';
+ALTER TABLE vinyl_record ADD COLUMN images VARCHAR(2000) NOT NULL DEFAULT '';
+ALTER TABLE vinyl_record ADD COLUMN discount_percent INTEGER NOT NULL DEFAULT 0 CHECK (discount_percent BETWEEN 0 AND 90);
+CREATE TABLE catalog_image (id UUID PRIMARY KEY, content BYTEA NOT NULL);

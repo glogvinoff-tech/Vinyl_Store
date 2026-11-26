@@ -1,0 +1,9 @@
+{
+  "artist": "Wu-Tang Clan",
+  "title": "Enter the Wu-Tang (36 Chambers)",
+  "year": 1993,
+  "genre": "Хип-хоп",
+  "tags": [],
+  "format": "LP",
+  "error": "curl: (28) Connection timed out after 8011 milliseconds\r\ncurl: (28) Connection timed out after 8007 milliseconds\r\ncurl: (28) Connection timed out after 8013 milliseconds\r\n"
+}

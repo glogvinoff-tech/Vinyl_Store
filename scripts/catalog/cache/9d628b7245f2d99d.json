@@ -1,0 +1,35 @@
+{
+  "artist": "Buzzcocks",
+  "title": "Another Music in a Different Kitchen",
+  "year": 1978,
+  "genre": "Панк",
+  "tags": [],
+  "format": "LP",
+  "candidates": [
+    {
+      "artist": "Buzzcocks",
+      "title": "Another Music In A Different Kitchen",
+      "id": 43538371,
+      "score": 1,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ba0d792b1df5bf2e8eb795085d672df6/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/43538371"
+    },
+    {
+      "artist": "Buzzcocks",
+      "title": "Another Music In A Different Kitchen (2018 Remastered Version)",
+      "id": 73177462,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bc77c5b727224f9e9cb0927021c9a79a/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/73177462"
+    },
+    {
+      "artist": "Buzzcocks",
+      "title": "Another Music In A Different Kitchen (Special Edition)",
+      "id": 47925922,
+      "score": 0.93,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a7305532fc82dddd2a613c1ad3324adb/500x500-000000-80-0-0.jpg",
+      "url": "https://www.deezer.com/album/47925922"
+    }
+  ],
+  "error": "curl: (28) Connection timed out after 8015 milliseconds\r\ncurl: (28) Connection timed out after 8011 milliseconds\r\ncurl: (28) Connection timed out after 8013 milliseconds\r\n"
+}

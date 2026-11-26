@@ -1,0 +1,1722 @@
+[
+  {
+    "artist": "Pink Floyd",
+    "title": "The Dark Side of the Moon",
+    "year": 1973,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "Led Zeppelin IV",
+    "year": 1971,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Beatles",
+    "title": "Abbey Road",
+    "year": 1969,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Queen",
+    "title": "A Night at the Opera",
+    "year": 1975,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "David Bowie",
+    "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "year": 1972,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "title": "Rumours",
+    "year": 1977,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Sticky Fingers",
+    "year": 1971,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Doors",
+    "title": "L.A. Woman",
+    "year": 1971,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "AC/DC",
+    "title": "Back in Black",
+    "year": 1980,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dire Straits",
+    "title": "Brothers in Arms",
+    "year": 1985,
+    "genre": "Рок",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Michael Jackson",
+    "title": "Thriller",
+    "year": 1982,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Madonna",
+    "title": "Like a Prayer",
+    "year": 1989,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Prince",
+    "title": "Purple Rain",
+    "year": 1984,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "ABBA",
+    "title": "Arrival",
+    "year": 1976,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Adele",
+    "title": "21",
+    "year": 2011,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dua Lipa",
+    "title": "Future Nostalgia",
+    "year": 2020,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Taylor Swift",
+    "title": "1989",
+    "year": 2014,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Harry Styles",
+    "title": "Fine Line",
+    "year": 2019,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Billie Eilish",
+    "title": "Happier Than Ever",
+    "year": 2021,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "George Michael",
+    "title": "Faith",
+    "year": 1987,
+    "genre": "Поп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Glenn Gould",
+    "title": "Bach: Goldberg Variations, BWV 988 (1981 Recording)",
+    "year": 1982,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Max Richter",
+    "title": "The Blue Notebooks",
+    "year": 2004,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Nils Frahm",
+    "title": "Spaces",
+    "year": 2013,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Ólafur Arnalds",
+    "title": "re:member",
+    "year": 2018,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Ludovico Einaudi",
+    "title": "Divenire",
+    "year": 2006,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Philip Glass",
+    "title": "Glassworks",
+    "year": 1982,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Víkingur Ólafsson",
+    "title": "Johann Sebastian Bach",
+    "year": 2018,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Yo-Yo Ma",
+    "title": "Six Evolutions - Bach: Cello Suites",
+    "year": 2018,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Hilary Hahn",
+    "title": "Bach: Violin Concertos",
+    "year": 2003,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Daniel Barenboim",
+    "title": "Beethoven: Piano Sonatas Nos. 8, 14 & 23",
+    "year": 1984,
+    "genre": "Классика",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Miles Davis",
+    "title": "Kind of Blue",
+    "year": 1959,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "John Coltrane",
+    "title": "Blue Train",
+    "year": 1958,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dave Brubeck",
+    "title": "Time Out",
+    "year": 1959,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Herbie Hancock",
+    "title": "Head Hunters",
+    "year": 1973,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Charles Mingus",
+    "title": "Mingus Ah Um",
+    "year": 1959,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bill Evans",
+    "title": "Waltz for Debby",
+    "year": 1962,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Thelonious Monk",
+    "title": "Monk's Dream",
+    "year": 1963,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Chet Baker",
+    "title": "Chet Baker Sings",
+    "year": 1954,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Stan Getz",
+    "title": "Getz/Gilberto",
+    "year": 1964,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Art Blakey",
+    "title": "Moanin'",
+    "year": 1959,
+    "genre": "Джаз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Ramones",
+    "title": "Ramones",
+    "year": 1976,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "year": 1979,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sex Pistols",
+    "title": "Never Mind the Bollocks, Here's the Sex Pistols",
+    "year": 1977,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dead Kennedys",
+    "title": "Fresh Fruit for Rotting Vegetables",
+    "year": 1980,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Buzzcocks",
+    "title": "Another Music in a Different Kitchen",
+    "year": 1978,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Damned",
+    "title": "Damned Damned Damned",
+    "year": 1977,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Green Day",
+    "title": "Dookie",
+    "year": 1994,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Offspring",
+    "title": "Smash",
+    "year": 1994,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bad Religion",
+    "title": "Suffer",
+    "year": 1988,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Rancid",
+    "title": "...And Out Come the Wolves",
+    "year": 1995,
+    "genre": "Панк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Nas",
+    "title": "Illmatic",
+    "year": 1994,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Wu-Tang Clan",
+    "title": "Enter the Wu-Tang (36 Chambers)",
+    "year": 1993,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "A Tribe Called Quest",
+    "title": "The Low End Theory",
+    "year": 1991,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "title": "To Pimp a Butterfly",
+    "year": 2015,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Outkast",
+    "title": "Aquemini",
+    "year": 1998,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dr. Dre",
+    "title": "2001",
+    "year": 1999,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Notorious B.I.G.",
+    "title": "Ready to Die",
+    "year": 1994,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "2Pac",
+    "title": "All Eyez on Me",
+    "year": 1996,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Lauryn Hill",
+    "title": "The Miseducation of Lauryn Hill",
+    "year": 1998,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Public Enemy",
+    "title": "It Takes a Nation of Millions to Hold Us Back",
+    "year": 1988,
+    "genre": "Хип-хоп",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Discovery",
+    "year": 2001,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Justice",
+    "title": "Cross",
+    "year": 2007,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Chemical Brothers",
+    "title": "Dig Your Own Hole",
+    "year": 1997,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Prodigy",
+    "title": "The Fat of the Land",
+    "year": 1997,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Fatboy Slim",
+    "title": "You've Come a Long Way, Baby",
+    "year": 1998,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Disclosure",
+    "title": "Settle",
+    "year": 2013,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Calvin Harris",
+    "title": "18 Months",
+    "year": 2012,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Avicii",
+    "title": "True",
+    "year": 2013,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Flume",
+    "title": "Skin",
+    "year": 2016,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Eric Prydz",
+    "title": "Opus",
+    "year": 2016,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Metallica",
+    "title": "Master of Puppets",
+    "year": 1986,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "year": 1970,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Iron Maiden",
+    "title": "The Number of the Beast",
+    "year": 1982,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Judas Priest",
+    "title": "British Steel",
+    "year": 1980,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Slayer",
+    "title": "Reign in Blood",
+    "year": 1986,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Megadeth",
+    "title": "Rust in Peace",
+    "year": 1990,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Pantera",
+    "title": "Vulgar Display of Power",
+    "year": 1992,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "System of a Down",
+    "title": "Toxicity",
+    "year": 2001,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Deftones",
+    "title": "White Pony",
+    "year": 2000,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Tool",
+    "title": "Lateralus",
+    "year": 2001,
+    "genre": "Метал",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Frank Ocean",
+    "title": "Blonde",
+    "year": 2016,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "SZA",
+    "title": "Ctrl",
+    "year": 2017,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Weeknd",
+    "title": "After Hours",
+    "year": 2020,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "D'Angelo",
+    "title": "Voodoo",
+    "year": 2000,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Erykah Badu",
+    "title": "Baduizm",
+    "year": 1997,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Aaliyah",
+    "title": "One in a Million",
+    "year": 1996,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Usher",
+    "title": "Confessions",
+    "year": 2004,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "TLC",
+    "title": "CrazySexyCool",
+    "year": 1994,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Janet Jackson",
+    "title": "The Velvet Rope",
+    "year": 1997,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Alicia Keys",
+    "title": "Songs in A Minor",
+    "year": 2001,
+    "genre": "R&B",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Nujabes",
+    "title": "Modal Soul",
+    "year": 2005,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "J Dilla",
+    "title": "Donuts",
+    "year": 2006,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "DJ Shadow",
+    "title": "Endtroducing.....",
+    "year": 1996,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "DJ Krush",
+    "title": "Krush",
+    "year": 1994,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Uyama Hiroto",
+    "title": "A Son of the Sun",
+    "year": 2008,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Jinsang",
+    "title": "Life.",
+    "year": 2016,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "potsu",
+    "title": "just friends",
+    "year": 2019,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "idealism",
+    "title": "hiraeth",
+    "year": 2017,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Tomppabeats",
+    "title": "Harbor",
+    "year": 2016,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Knxwledge",
+    "title": "Hud Dreems",
+    "year": 2015,
+    "genre": "Lo-fi",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "B.B. King",
+    "title": "Live at the Regal",
+    "year": 1965,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Muddy Waters",
+    "title": "Folk Singer",
+    "year": 1964,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Howlin' Wolf",
+    "title": "Moanin' in the Moonlight",
+    "year": 1959,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Albert King",
+    "title": "Born Under a Bad Sign",
+    "year": 1967,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Stevie Ray Vaughan",
+    "title": "Texas Flood",
+    "year": 1983,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "John Lee Hooker",
+    "title": "The Healer",
+    "year": 1989,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Robert Johnson",
+    "title": "King of the Delta Blues Singers",
+    "year": 1961,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Etta James",
+    "title": "At Last!",
+    "year": 1960,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Buddy Guy",
+    "title": "Damn Right, I've Got the Blues",
+    "year": 1991,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Freddie King",
+    "title": "Getting Ready...",
+    "year": 1971,
+    "genre": "Блюз",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Johnny Cash",
+    "title": "At Folsom Prison",
+    "year": 1968,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dolly Parton",
+    "title": "Jolene",
+    "year": 1974,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Willie Nelson",
+    "title": "Red Headed Stranger",
+    "year": 1975,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Glen Campbell",
+    "title": "Wichita Lineman",
+    "year": 1968,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Kacey Musgraves",
+    "title": "Golden Hour",
+    "year": 2018,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Chris Stapleton",
+    "title": "Traveller",
+    "year": 2015,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Shania Twain",
+    "title": "Come On Over",
+    "year": 1997,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Emmylou Harris",
+    "title": "Wrecking Ball",
+    "year": 1995,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sturgill Simpson",
+    "title": "Metamodern Sounds in Country Music",
+    "year": 2014,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Tyler Childers",
+    "title": "Purgatory",
+    "year": 2017,
+    "genre": "Кантри",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Arctic Monkeys",
+    "title": "AM",
+    "year": 2013,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Tame Impala",
+    "title": "Currents",
+    "year": 2015,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Strokes",
+    "title": "Is This It",
+    "year": 2001,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Vampire Weekend",
+    "title": "Modern Vampires of the City",
+    "year": 2013,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bon Iver",
+    "title": "For Emma, Forever Ago",
+    "year": 2007,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Fleet Foxes",
+    "title": "Fleet Foxes",
+    "year": 2008,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Mac DeMarco",
+    "title": "Salad Days",
+    "year": 2014,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Mitski",
+    "title": "Be the Cowboy",
+    "year": 2018,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Japanese Breakfast",
+    "title": "Jubilee",
+    "year": 2021,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The National",
+    "title": "High Violet",
+    "year": 2010,
+    "genre": "Инди",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Nevermind",
+    "year": 1991,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Ten",
+    "year": 1991,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Soundgarden",
+    "title": "Superunknown",
+    "year": 1994,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Alice In Chains",
+    "title": "Dirt",
+    "year": 1992,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Smashing Pumpkins",
+    "title": "Siamese Dream",
+    "year": 1993,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "In Rainbows",
+    "year": 2007,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Muse",
+    "title": "Origin of Symmetry",
+    "year": 2001,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Placebo",
+    "title": "Without You I'm Nothing",
+    "year": 1998,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Garbage",
+    "title": "Garbage",
+    "year": 1995,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "R.E.M.",
+    "title": "Automatic for the People",
+    "year": 1992,
+    "genre": "Альтернатива",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Exodus",
+    "year": 1977,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Peter Tosh",
+    "title": "Legalize It",
+    "year": 1976,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Burning Spear",
+    "title": "Marcus Garvey",
+    "year": 1975,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Jimmy Cliff",
+    "title": "The Harder They Come",
+    "year": 1972,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Toots & The Maytals",
+    "title": "Funky Kingston",
+    "year": 1973,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Black Uhuru",
+    "title": "Red",
+    "year": 1981,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Steel Pulse",
+    "title": "Handsworth Revolution",
+    "year": 1978,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Gregory Isaacs",
+    "title": "Night Nurse",
+    "year": 1982,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Dennis Brown",
+    "title": "Visions Of Dennis Brown",
+    "year": 1977,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Congos",
+    "title": "Heart of the Congos",
+    "year": 1977,
+    "genre": "Регги",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "BTS",
+    "title": "Love Yourself: Tear",
+    "year": 2018,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "BLACKPINK",
+    "title": "THE ALBUM",
+    "year": 2020,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "TWICE",
+    "title": "Formula of Love: O+T=<3",
+    "year": 2021,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Red Velvet",
+    "title": "The Perfect Red Velvet",
+    "year": 2018,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "EXO",
+    "title": "The War",
+    "year": 2017,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "SHINee",
+    "title": "Odd",
+    "year": 2015,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "SEVENTEEN",
+    "title": "Face the Sun",
+    "year": 2022,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Stray Kids",
+    "title": "NOEASY",
+    "year": 2021,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "NCT 127",
+    "title": "Sticker",
+    "year": 2021,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "IU",
+    "title": "Palette",
+    "year": 2017,
+    "genre": "K-pop",
+    "tags": [
+      "CD"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Massive Attack",
+    "title": "Mezzanine",
+    "year": 1998,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Portishead",
+    "title": "Dummy",
+    "year": 1994,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Aphex Twin",
+    "title": "Selected Ambient Works 85-92",
+    "year": 1992,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Boards of Canada",
+    "title": "Music Has the Right to Children",
+    "year": 1998,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Kraftwerk",
+    "title": "The Man-Machine",
+    "year": 1978,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Air",
+    "title": "Moon Safari",
+    "year": 1998,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Moby",
+    "title": "Play",
+    "year": 1999,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Four Tet",
+    "title": "Rounds",
+    "year": 2003,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Jon Hopkins",
+    "title": "Immunity",
+    "year": 2013,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Burial",
+    "title": "Untrue",
+    "year": 2007,
+    "genre": "Электроника",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Marvin Gaye",
+    "title": "What's Going On",
+    "year": 1971,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Al Green",
+    "title": "Let's Stay Together",
+    "year": 1972,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Aretha Franklin",
+    "title": "I Never Loved a Man the Way I Love You",
+    "year": 1967,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Otis Redding",
+    "title": "Otis Blue",
+    "year": 1965,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sam Cooke",
+    "title": "Ain't That Good News",
+    "year": 1964,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Curtis Mayfield",
+    "title": "Superfly",
+    "year": 1972,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Isaac Hayes",
+    "title": "Hot Buttered Soul",
+    "year": 1969,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bill Withers",
+    "title": "Just As I Am",
+    "year": 1971,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Donny Hathaway",
+    "title": "Everything Is Everything",
+    "year": 1970,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Amy Winehouse",
+    "title": "Back to Black",
+    "year": 2006,
+    "genre": "Соул",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Funkadelic",
+    "title": "Maggot Brain",
+    "year": 1971,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Parliament",
+    "title": "Mothership Connection",
+    "year": 1975,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sly & The Family Stone",
+    "title": "There's a Riot Goin' On",
+    "year": 1971,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "James Brown",
+    "title": "The Payback",
+    "year": 1973,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "The Meters",
+    "title": "Rejuvenation",
+    "year": 1974,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Ohio Players",
+    "title": "Fire",
+    "year": 1974,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Kool & The Gang",
+    "title": "Wild and Peaceful",
+    "year": 1973,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Rick James",
+    "title": "Street Songs",
+    "year": 1981,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Betty Davis",
+    "title": "They Say I'm Different",
+    "year": 1974,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bootsy's Rubber Band",
+    "title": "Stretchin' Out in Bootsy's Rubber Band",
+    "year": 1976,
+    "genre": "Фанк",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Chic",
+    "title": "C'est Chic",
+    "year": 1978,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Donna Summer",
+    "title": "Bad Girls",
+    "year": 1979,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Bee Gees",
+    "title": "Spirits Having Flown",
+    "year": 1979,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sister Sledge",
+    "title": "We Are Family",
+    "year": 1979,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Diana Ross",
+    "title": "Diana",
+    "year": 1980,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Gloria Gaynor",
+    "title": "Love Tracks",
+    "year": 1978,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Grace Jones",
+    "title": "Nightclubbing",
+    "year": 1981,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Sylvester",
+    "title": "Step II",
+    "year": 1978,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Earth, Wind & Fire",
+    "title": "I Am",
+    "year": 1979,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Boney M.",
+    "title": "Nightflight to Venus",
+    "year": 1978,
+    "genre": "Диско",
+    "tags": [],
+    "format": "LP"
+  },
+  {
+    "artist": "Кино",
+    "title": "Группа крови",
+    "year": 1988,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Кино",
+    "title": "Звезда по имени Солнце",
+    "year": 1989,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Аквариум",
+    "title": "Радио Африка",
+    "year": 1983,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "ДДТ",
+    "title": "Актриса Весна",
+    "year": 1992,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Наутилус Помпилиус",
+    "title": "Князь тишины",
+    "year": 1989,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Алиса",
+    "title": "Блок ада",
+    "year": 1987,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Земфира",
+    "title": "Прости меня моя любовь",
+    "year": 2000,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Мумий Тролль",
+    "title": "Морская",
+    "year": 1997,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Сплин",
+    "title": "Гранатовый альбом",
+    "year": 1998,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  },
+  {
+    "artist": "Би-2",
+    "title": "Би-2",
+    "year": 2000,
+    "genre": "Рок",
+    "tags": [
+      "Русское"
+    ],
+    "format": "LP"
+  }
+]

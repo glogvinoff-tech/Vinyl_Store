@@ -1,0 +1,56 @@
+[
+  {
+    "artist": "Daft Punk",
+    "title": "Discovery",
+    "year": 2001,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Daft+Punk%22+album%3A%22Discovery%22&limit=30']' timed out after 40 seconds"
+  },
+  {
+    "artist": "Justice",
+    "title": "Cross",
+    "year": 2007,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Justice%22+album%3A%22Cross%22&limit=30']' timed out after 40 seconds"
+  },
+  {
+    "artist": "The Prodigy",
+    "title": "The Fat of the Land",
+    "year": 1997,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22The+Prodigy%22+album%3A%22The+Fat+of+the+Land%22&limit=30']' timed out after 40 seconds"
+  },
+  {
+    "artist": "The Chemical Brothers",
+    "title": "Dig Your Own Hole",
+    "year": 1997,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22The+Chemical+Brothers%22+album%3A%22Dig+Your+Own+Hole%22&limit=30']' timed out after 40 seconds"
+  },
+  {
+    "artist": "Fatboy Slim",
+    "title": "You've Come a Long Way, Baby",
+    "year": 1998,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Fatboy+Slim%22+album%3A%22You%27ve+Come+a+Long+Way%2C+Baby%22&limit=30']' timed out after 40 seconds"
+  },
+  {
+    "artist": "Disclosure",
+    "title": "Settle",
+    "year": 2013,
+    "genre": "EDM",
+    "tags": [],
+    "format": "LP",
+    "error": "Command '['powershell.exe', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'C:\\\\Users\\\\tema\\\\Downloads\\\\PKS\\\\scripts\\\\catalog\\\\fetch-http.ps1', 'https://api.deezer.com/search?q=artist%3A%22Disclosure%22+album%3A%22Settle%22&limit=30']' timed out after 40 seconds"
+  }
+]
