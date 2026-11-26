@@ -18,5 +18,5 @@ WORKDIR /app
 COPY --from=build /app/target/vinyl-store-backend-1.0.0.jar app.jar
 USER app
 EXPOSE 8080
-HEALTHCHECK --interval=10s --timeout=5s --start-period=40s --retries=20 CMD-SHELL curl -fsS "http://localhost:${PORT:-8080}/actuator/health" || exit 1
+HEALTHCHECK --interval=10s --timeout=5s --start-period=40s --retries=20 CMD ["sh", "-c", "curl -fsS \"http://localhost:${PORT:-8080}/actuator/health\" || exit 1"]
 CMD ["sh", "-c", "exec java -Dserver.port=${PORT:-8080} -jar app.jar"]
